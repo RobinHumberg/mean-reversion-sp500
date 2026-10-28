@@ -103,7 +103,7 @@ Die ehrlichere Zahl ist der **Mittelwert der 12 Nachbarn**: Information Ratio 0,
 
 Ordner `research/`. Ziel: den S&P 500 (SPY, Total Return) schlagen, mit höherer Sharpe Ratio. Getestet wurden die Repo-Strategie, Long/Short-Varianten und weitere Ansätze (Cross-Sectional-Momentum, Low-Vol, Trend- und Vol-Timing auf dem SPY, Kombinationen), 17 Strategien in Summe.
 
-**Beste getestete Variante: das 50%-Overlay.** Das Repo-Signal bleibt unverändert (10-Tage-Rendite < −8 %, Kurs > SMA200, Top-2 % überverkauft, Exit bei 10-Tage-Rendite > 0, Mindesthaltedauer 3 Tage). Der Mean-Reversion-Sleeve bekommt aber höchstens **50 %** des Kapitals, gleichgewichtet auf die aktiven Aktien. Der Rest liegt im SPY, ohne Signal sind es 100 % SPY. Die 50 % wurden vorab festgelegt (Vorschlag aus den offenen Punkten), nicht auf den Ergebnissen gewählt. Sie hat unter allen getesteten Strategien die höchste Out-of-Sample-Sharpe.
+**Beste getestete Variante: das 50%-Overlay.** Das Repo-Signal bleibt unverändert (10-Tage-Rendite < −8 %, Kurs > SMA200, Top-2 % überverkauft, Exit bei 10-Tage-Rendite > 0, Mindesthaltedauer 3 Tage). Der Mean-Reversion-Sleeve bekommt aber höchstens **50 %** des Kapitals, gleichgewichtet auf die aktiven Aktien. Der Rest liegt im SPY, ohne Signal sind es 100 % SPY. Die 50 % wurden vorab festgelegt (Vorschlag aus den offenen Punkten), nicht auf den Ergebnissen gewählt. Sie hat unter allen getesteten Aktien-Strategien die höchste Out-of-Sample-Sharpe (die Futures-Overlays im Abschnitt unten sind ein eigener ETF-Proxy-Test und haben teils eine höhere).
 
 Aufbau: Signal am Close t−1, Handel am Open t, 5 bps pro Seite auf Aktien, 1 bp auf SPY, Cash zum T-Bill-Satz (^IRX), PIT-Universum über `Date added`. In-Sample 2000–2012, Out-of-Sample 2013–2026. Sharpe jeweils über T-Bill.
 
@@ -177,10 +177,57 @@ Der Turnover beträgt 43,7x pro Jahr (Kosten 1,94 % p.a. bei 5 bps). Bei 20 bps 
 | `sp500_research.py` | Repo-Replikation, Long/Short, Momentum, Low-Vol, Trend, Vol-Target, Kombinationen |
 | `momentum_overlay.py` | Time-Series-Momentum (Moskowitz/Ooi/Pedersen 2012) mit RSI(2)-Sleeves auf S&P-500-Aktien |
 | `overlay_spy.py` | RSI(2)-Overlay auf SPY und Sektor-/Index-ETFs |
+| `momentum_crash_mr.py` | MR-Overlay + Momentum mit Crash-Filter (Daniel/Moskowitz), WML-Diagnose |
+| `futures_test.py` | Futures-Test (ETF-Überrendite-Proxy): TSMOM- und RSI(2)-MR-Sleeves als SPY-Overlay |
 | `download_sp500_ohlc.py`, `download_sp500_daily.py` | Kursdownload (yfinance), legt Cache in `research/data/` ab |
 | `results/` | Kennzahlen als CSV und Charts der Läufe |
 
 Ausführung aus dem Ordner `research/`: erst `python download_sp500_ohlc.py`, dann `python overlay50.py`. Die Skripte schreiben ihre Ausgaben in `research/*_results/` (nicht versioniert), die mitgelieferten Ergebnisse liegen in `research/results/`. Voraussetzung: pandas, numpy, matplotlib, yfinance.
+
+## Erweiterung 2: Momentum und Crash-Filter (Daniel/Moskowitz)
+
+Ziel: die Mean-Reversion-Strategie mit Momentum verbinden. Grundlage ist das Paper *Momentum Crashes* (Daniel/Moskowitz): Momentum (Winner minus Loser, WML) crasht nach Marktrückgängen, und die Verlierer-Aktien erholen sich im Bear-Zustand optionsartig stark. Als **Bear-Indikator** dient: kumulierte SPY-Rendite der letzten 24 Monate < 0 (Info am Monatsende, wirkt ab dem nächsten Handelstag; 17,7 % der Tage seit 2000). Momentum ist die 12-1-Monats-Rendite (Querschnitts-Rang, Top-/Bottom-Dezil). Skript: `research/momentum_crash_mr.py`. Alle Varianten sind vorab festgelegt, MR-Sleeve wie oben mit 50 % Skalierung.
+
+| Variante | CAGR OOS | Sharpe IS | Sharpe OOS | Δ Sharpe OOS (P) | Max DD OOS |
+|---|---|---|---|---|---|
+| SPY | +14,76 % | 0,09 | 0,82 | – | −32,0 % |
+| M0 MR 50 % (Idle SPY, Basis) | +23,28 % | 0,34 | 0,99 | +0,16 (0,13) | −33,1 % |
+| M1 MR 50 % + Idle im Momentum-Buch | +24,03 % | 0,44 | 0,91 | +0,09 (0,31) | −37,1 % |
+| M2 wie M1, im Bear-Zustand Idle = SPY | +23,71 % | 0,41 | 0,90 | +0,08 (0,33) | −37,1 % |
+| M3 MR nur bei Gewinnern (Momentum-Rang ≥ 0,5) | +23,21 % | 0,24 | 0,98 | +0,15 (0,16) | −32,7 % |
+| M4 wie M3, im Bear gespiegelt (Verlierer) | +23,42 % | 0,24 | 0,99 | +0,16 (0,15) | −32,7 % |
+| M5 SPY + 0,5 WML, ohne Filter | +12,76 % | −0,19 | 0,61 | −0,21 (0,90) | −26,1 % |
+| M6 SPY + 0,5 WML, Crash-Filter | +12,78 % | 0,07 | 0,61 | −0,21 (0,90) | −26,1 % |
+| M7 M2 + WML-Overlay (Crash-Filter) | +20,35 % | 0,34 | 0,69 | −0,13 (0,72) | −32,7 % |
+
+- **Crash-Diagnose (reiner WML, Top- minus Bottom-Dezil):** schlechtester Monat −43,0 % (April 2009) ohne Filter, −23,5 % mit Crash-Filter. Schiefe −0,53 ohne, +0,36 mit Filter. Ø-Monatsrendite im Bear-Zustand −2,56 %, sonst −0,17 %.
+- **Out-of-Sample greift der Filter kaum:** M5 und M6 sind praktisch identisch (kaum Bear-Zustand nach 2012).
+- **Der reine WML ist in diesem Universum negativ** (Ø −7,1 % pro Jahr). Ein Teil dürfte am Survivorship-Bias liegen: entfernte Verlierer-Aktien fehlen.
+- **Kombination:** Keine Variante schlägt das reine 50%-Overlay (M0) out-of-sample bei der Sharpe. Momentum als Idle-Buch hebt die Rendite leicht, erhöht aber die Volatilität.
+
+## Erweiterung 3: Futures
+
+Idee: Futures haben sehr niedrige Kosten, und die Repo-Strategie ist kostenempfindlich. Zwei Punkte:
+
+- **Aktien-Selektion lässt sich nicht über Futures abbilden.** Meines Wissens wurden US-Single-Stock-Futures 2020 eingestellt (bitte prüfen). Das Repo-Overlay bei Futures-Kosten von 0–2 bps hat Out-of-Sample Δ Sharpe +0,26 bis +0,22 (siehe Kostentabelle oben), wäre aber nur mit solchen Kontrakten umsetzbar.
+- **Futures-Universum als Proxy-Test:** Die Yahoo-Fortlaufendserien (`=F`) sind unbrauchbar (nicht back-adjusted, z. B. NG=F mit 135 Tagen über ±10 %, CL=F mit −37,63 $ und +306 %, 6J=F mit Preis 0,00 und +904 %, RTY=F erst ab 2017). Deshalb ist die Futures-Rendite hier die **Überrendite des Underlyings (ETF-Total-Return minus T-Bill)**, Margin in T-Bills, Kosten 0,5–1 bp pro Seite plus 4 bp pro Jahr Roll. Nicht abgebildet: Basis/Roll-Rendite einzelner Kontrakte, Margin-Rufe, Tick-Größen.
+
+Universum (19 Instrumente): ES, NQ, YM, RTY, EFA, EEM, ZT, ZF, ZN, ZB, GC, SI, Rohstoff- und Agrarkorb, 6E, 6B, 6C, 6A, 6J (jeweils über ETF-Proxy). Sleeves: Time-Series-Momentum (Moskowitz/Ooi/Pedersen, Long/Short, 40 %/σ), RSI(2)-Mean-Reversion (Connors-Regeln: Long bei RSI(2) < 10 und Kurs > SMA200, Exit bei Kurs > SMA5, Short spiegelbildlich; Long/Short und nur Long) und die Kombination. Jeder Sleeve ist ex-ante auf 10 % Vola skaliert (max. 4x) und läuft als Overlay auf dem SPY. In-Sample 2004–2012, Out-of-Sample 2013–2026. Skript: `research/futures_test.py`.
+
+| Portfolio | CAGR OOS | Vol OOS | Sharpe OOS | Max DD OOS | Korrelation Sleeve zu SPY (OOS) | Δ Sharpe OOS (P) |
+|---|---|---|---|---|---|---|
+| SPY | +14,76 % | 16,1 % | 0,82 | −32,0 % | – | – |
+| SPY + TSMOM-Sleeve | +23,84 % | 20,7 % | 1,05 | −28,1 % | +0,15 | +0,23 (0,09) |
+| SPY + 0,5x TSMOM | +19,39 % | 17,8 % | 0,99 | −26,6 % | +0,15 | +0,16 (0,045) |
+| SPY + RSI(2)-MR Long/Short | +18,17 % | 22,1 % | 0,79 | −39,4 % | +0,27 | −0,04 (0,61) |
+| SPY + RSI(2)-MR nur Long | +17,58 % | 23,4 % | 0,74 | −44,5 % | +0,37 | −0,09 (0,74) |
+| SPY + TSMOM + MR | +23,40 % | 21,4 % | 1,01 | −28,6 % | +0,23 | +0,18 (0,12) |
+
+- **TSMOM-Sleeve allein:** Sharpe 0,53 In-Sample und 0,78 Out-of-Sample bei Vola 10,3–10,8 %. Der Overlay-Effekt entsteht durch die niedrige Korrelation zum SPY.
+- **Index-Futures-MR bringt keinen Vorteil** (Sleeve allein Out-of-Sample Sharpe 0,36). Der Edge der Repo-Strategie kommt aus der Einzelaktien-Auswahl.
+- **Kosten (SPY + Sleeve, Out-of-Sample, Faktor auf Futures-Kosten 0 / 1 / 3 / 10):** TSMOM Sharpe 1,06 / 1,05 / 1,03 / 0,94, robust. MR Long/Short 0,84 / 0,79 / 0,68 / 0,33, empfindlich (181x Turnover pro Jahr).
+- **Hebel:** Ø Brutto-Exposure des TSMOM-Sleeves 356 %, Spitze 904 %. Margin und Risikokontrolle sind nötig.
+- **Zeitraum:** Beginn 2004, weil viele ETFs erst ab 2005–2007 existieren. Die P-Werte berücksichtigen die Zahl der getesteten Varianten nicht.
 
 ## Grenzen und offene Punkte
 
