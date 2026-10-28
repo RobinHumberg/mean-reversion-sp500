@@ -1,0 +1,859 @@
+Ticker,Name,Sector,Industry,Segment,First date,History (years)
+MMM,3M,Industrials,Industrial Conglomerates,Large Cap,1962-01-02,64.8021902806297
+AOS,A. O. Smith,Industrials,Building Products,Large Cap,1983-09-30,43.06091718001369
+ABT,Abbott Laboratories,Health Care,Health Care Equipment,Large Cap,1980-03-17,46.59822039698837
+ABBV,AbbVie,Health Care,Biotechnology,Large Cap,2013-01-02,13.801505817932922
+ACN,Accenture,Information Technology,IT Consulting & Other Services,Large Cap,2001-07-19,25.259411362080765
+ADBE,Adobe Inc.,Information Technology,Application Software,Large Cap,1986-08-13,40.19164955509925
+AMD,Advanced Micro Devices,Information Technology,Semiconductors,Large Cap,1980-03-17,46.59822039698837
+AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,Large Cap,1991-06-26,35.32375085557837
+AFL,Aflac,Financials,Life & Health Insurance,Large Cap,1980-03-17,46.59822039698837
+A,Agilent Technologies,Health Care,Life Sciences Tools & Services,Large Cap,1999-11-18,26.926762491444215
+APD,Air Products,Materials,Industrial Gases,Large Cap,1980-03-17,46.59822039698837
+ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large Cap,2020-12-10,5.864476386036961
+AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,Large Cap,1999-10-29,26.981519507186857
+ALB,Albemarle Corporation,Materials,Specialty Chemicals,Large Cap,1994-02-22,32.662559890485966
+ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,Large Cap,1997-05-28,29.401779603011637
+ALGN,Align Technology,Health Care,Health Care Supplies,Large Cap,2001-01-30,25.724845995893222
+ALLE,Allegion,Industrials,Building Products,Large Cap,2013-11-18,12.92539356605065
+LNT,Alliant Energy,Utilities,Electric Utilities,Large Cap,1973-02-21,53.66461327857632
+ALL,Allstate,Financials,Property & Casualty Insurance,Large Cap,1993-06-03,33.385352498288846
+GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,Large Cap,2004-08-19,22.17385352498289
+GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,Large Cap,2004-08-19,22.17385352498289
+MO,Altria,Consumer Staples,Tobacco,Large Cap,1962-01-02,64.8021902806297
+AMZN,Amazon,Consumer Discretionary,Broadline Retail,Large Cap,1997-05-15,29.437371663244353
+AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,Large Cap,2012-05-15,14.43668720054757
+AEE,Ameren,Utilities,Multi-Utilities,Large Cap,1998-01-02,28.802190280629706
+AEP,American Electric Power,Utilities,Electric Utilities,Large Cap,1962-01-02,64.8021902806297
+AXP,American Express,Financials,Consumer Finance,Large Cap,1972-06-01,54.390143737166326
+AIG,American International Group,Financials,Multi-line Insurance,Large Cap,1973-01-02,53.80150581793292
+AMT,American Tower,Real Estate,Telecom Tower REITs,Large Cap,1998-02-27,28.648870636550306
+AWK,American Water Works,Utilities,Water Utilities,Large Cap,2008-04-23,18.496919917864478
+AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,Large Cap,2005-09-15,21.100616016427104
+AME,Ametek,Industrials,Electrical Components & Equipment,Large Cap,1984-07-19,42.25872689938399
+AMGN,Amgen,Health Care,Biotechnology,Large Cap,1983-06-17,43.34839151266256
+APH,Amphenol,Information Technology,Electronic Components,Large Cap,1991-11-08,34.954140999315534
+ADI,Analog Devices,Information Technology,Semiconductors,Large Cap,1980-03-17,46.59822039698837
+AON,Aon plc,Financials,Insurance Brokers,Large Cap,1980-06-02,46.38740588637919
+APA,APA Corporation,Energy,Oil & Gas Exploration & Production,Large Cap,1979-05-15,47.43874058863792
+APO,Apollo Global Management,Financials,Asset Management & Custody Banks,Large Cap,2011-03-30,15.564681724845997
+AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",Large Cap,1980-12-12,45.8590006844627
+AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,Large Cap,1980-03-17,46.59822039698837
+APP,AppLovin,Communication Services,Advertising,Large Cap,2021-04-15,5.519507186858316
+APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,Large Cap,2011-11-17,14.929500342231348
+ACGL,Arch Capital Group,Financials,Property & Casualty Insurance,Large Cap,1995-09-14,31.104722792607802
+ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,Large Cap,1980-03-17,46.59822039698837
+ARES,Ares Management,Financials,Asset Management & Custody Banks,Large Cap,2014-05-02,12.473648186173854
+ANET,Arista Networks,Information Technology,Communications Equipment,Large Cap,2014-06-06,12.37782340862423
+AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,Large Cap,1984-06-20,42.338124572210816
+AIZ,Assurant,Financials,Multi-line Insurance,Large Cap,2004-02-05,22.71047227926078
+T,AT&T,Communication Services,Integrated Telecommunication Services,Large Cap,1983-11-21,42.91854893908282
+ATO,Atmos Energy,Utilities,Gas Utilities,Large Cap,1983-12-28,42.81724845995893
+ADSK,Autodesk,Information Technology,Application Software,Large Cap,1985-06-28,41.31690622861054
+ADP,Automatic Data Processing,Industrials,Human Resource & Employment Services,Large Cap,1980-03-17,46.59822039698837
+AZO,AutoZone,Consumer Discretionary,Automotive Retail,Large Cap,1991-04-02,35.5564681724846
+AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,Large Cap,1973-02-21,53.66461327857632
+AXON,Axon Enterprise,Industrials,Aerospace & Defense,Large Cap,2001-06-19,25.34154688569473
+BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,Large Cap,1987-04-06,39.54551676933607
+BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",Large Cap,1973-02-21,53.66461327857632
+BAC,Bank of America,Financials,Diversified Banks,Large Cap,1973-02-21,53.66461327857632
+BAX,Baxter International,Health Care,Health Care Equipment,Large Cap,1981-10-27,44.98562628336756
+BDX,Becton Dickinson,Health Care,Health Care Equipment,Large Cap,1973-02-21,53.66461327857632
+BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings,Large Cap,1996-05-09,30.45311430527036
+BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,Large Cap,1985-04-18,41.51129363449692
+TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,Large Cap,1989-02-09,37.6974674880219
+BIIB,Biogen,Health Care,Biotechnology,Large Cap,1991-09-17,35.096509240246405
+BLK,BlackRock,Financials,Asset Management & Custody Banks,Large Cap,1999-10-01,27.058179329226558
+BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,Large Cap,2007-06-22,19.3347022587269
+BE,Bloom Energy,Industrials,Electrical Components & Equipment,Large Cap,2018-07-25,8.243668720054757
+BA,Boeing,Industrials,Aerospace & Defense,Large Cap,1962-01-02,64.8021902806297
+BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large Cap,1999-03-31,27.561943874058862
+BSX,Boston Scientific,Health Care,Health Care Equipment,Large Cap,1992-05-19,34.42573579739904
+BMY,Bristol Myers Squibb,Health Care,Pharmaceuticals,Large Cap,1972-06-01,54.390143737166326
+AVGO,Broadcom,Information Technology,Semiconductors,Large Cap,2009-08-06,17.21013004791239
+BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,Large Cap,2007-03-22,19.586584531143053
+BRO,Brown & Brown,Financials,Insurance Brokers,Large Cap,1981-02-11,45.69199178644764
+BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,Large Cap,1980-03-17,46.59822039698837
+BG,Bunge Global,Consumer Staples,Agricultural Products & Services,Large Cap,2001-08-02,25.22108145106092
+BXP,"BXP, Inc.",Real Estate,Office REITs,Large Cap,1997-06-18,29.34428473648186
+CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,Large Cap,1997-10-16,29.01574264202601
+CDNS,Cadence Design Systems,Information Technology,Application Software,Large Cap,1987-06-10,39.36755646817249
+CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,Large Cap,1993-07-22,33.25119780971937
+COF,Capital One,Financials,Consumer Finance,Large Cap,1994-11-16,31.9315537303217
+CAH,Cardinal Health,Health Care,Health Care Distributors,Large Cap,1983-08-04,43.21697467488022
+CCL,Carnival Corporation,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large Cap,1987-07-24,39.24709103353867
+CARR,Carrier Global,Industrials,Building Products,Large Cap,2020-03-19,6.5927446954141
+CVNA,Carvana,Consumer Discretionary,Automotive Retail,Large Cap,2017-04-28,9.483915126625599
+CASY,Casey's,Consumer Staples,Food Retail,Large Cap,1983-10-20,43.006160164271044
+CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,Large Cap,1962-01-02,64.8021902806297
+CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,Large Cap,2010-06-15,16.35318275154004
+CBRE,CBRE Group,Real Estate,Real Estate Services,Large Cap,2004-06-10,22.365503080082135
+CDW,CDW Corporation,Information Technology,Technology Distributors,Large Cap,2013-06-27,13.319644079397673
+COR,Cencora,Health Care,Health Care Distributors,Large Cap,1995-04-04,31.550992470910334
+CNC,Centene Corporation,Health Care,Managed Health Care,Large Cap,2001-12-13,24.856947296372347
+CNP,CenterPoint Energy,Utilities,Multi-Utilities,Large Cap,1962-01-02,64.8021902806297
+CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,Large Cap,2005-08-11,21.196440793976727
+CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,Large Cap,2000-06-23,26.32991101984942
+SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,Large Cap,1987-09-22,39.082819986310746
+CHTR,Charter Communications,Communication Services,Cable & Satellite,Large Cap,2010-01-05,16.79397672826831
+CVX,Chevron Corporation,Energy,Integrated Oil & Gas,Large Cap,1962-01-02,64.8021902806297
+CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,Large Cap,2006-01-26,20.736481861738536
+CB,Chubb Limited,Financials,Property & Casualty Insurance,Large Cap,1993-03-25,33.57700205338809
+CHD,Church & Dwight,Consumer Staples,Household Products,Large Cap,1980-03-17,46.59822039698837
+CIEN,Ciena,Information Technology,Communications Equipment,Large Cap,1997-02-07,29.702943189596166
+CI,Cigna,Health Care,Health Care Services,Large Cap,1982-03-31,44.56125941136208
+CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,Large Cap,1980-03-17,46.59822039698837
+CTAS,Cintas,Industrials,Diversified Support Services,Large Cap,1983-08-19,43.175906913073234
+CSCO,Cisco,Information Technology,Communications Equipment,Large Cap,1990-02-16,36.67898699520876
+C,Citigroup,Financials,Diversified Banks,Large Cap,1977-01-03,49.79876796714579
+CFG,Citizens Financial Group,Financials,Regional Banks,Large Cap,2014-09-24,12.0766598220397
+CLX,Clorox,Consumer Staples,Household Products,Large Cap,1973-02-21,53.66461327857632
+CME,CME Group,Financials,Financial Exchanges & Data,Large Cap,2002-12-06,23.876796714579054
+CMS,CMS Energy,Utilities,Multi-Utilities,Large Cap,1973-02-21,53.66461327857632
+KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Large Cap,1962-01-02,64.8021902806297
+CTSH,Cognizant,Information Technology,IT Consulting & Other Services,Large Cap,1998-06-19,28.34223134839151
+COHR,Coherent Corp.,Information Technology,Electronic Components,Large Cap,1987-10-02,39.05544147843943
+COIN,Coinbase,Financials,Financial Exchanges & Data,Large Cap,2021-04-14,5.522245037645448
+CL,Colgate-Palmolive,Consumer Staples,Household Products,Large Cap,1973-05-02,53.47296372347707
+CMCSA,Comcast,Communication Services,Cable & Satellite,Large Cap,1980-03-17,46.59822039698837
+FIX,Comfort Systems USA,Industrials,Construction & Engineering,Large Cap,1997-06-27,29.319644079397673
+COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,Large Cap,1981-12-31,44.80766598220397
+ED,Consolidated Edison,Utilities,Multi-Utilities,Large Cap,1962-01-02,64.8021902806297
+STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,Large Cap,1992-03-17,34.59822039698837
+COO,Cooper Companies (The),Health Care,Health Care Supplies,Large Cap,1983-01-21,43.75085557837098
+CPRT,Copart,Industrials,Diversified Support Services,Large Cap,1994-03-17,32.59958932238193
+GLW,Corning Inc.,Information Technology,Electronic Components,Large Cap,1981-12-31,44.80766598220397
+CSGP,CoStar Group,Real Estate,Real Estate Services,Large Cap,1998-07-01,28.309377138945926
+COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,Large Cap,1986-07-09,40.28747433264887
+CRH,CRH plc,Materials,Construction Materials,Large Cap,1989-07-13,37.275838466803556
+CRWD,CrowdStrike,Information Technology,Systems Software,Large Cap,2019-06-12,7.36208076659822
+CCI,Crown Castle,Real Estate,Telecom Tower REITs,Large Cap,1998-08-18,28.177960301163587
+CSX,CSX Corporation,Industrials,Rail Transportation,Large Cap,1980-11-03,45.96577686516085
+CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,Large Cap,1973-02-21,53.66461327857632
+CVS,CVS Health,Health Care,Health Care Services,Large Cap,1973-02-21,53.66461327857632
+DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,Large Cap,1978-12-29,47.813826146475016
+DRI,Darden Restaurants,Consumer Discretionary,Restaurants,Large Cap,1995-05-09,31.45516769336071
+DDOG,Datadog,Information Technology,Application Software,Large Cap,2019-09-19,7.091033538672143
+DVA,DaVita,Health Care,Health Care Services,Large Cap,1995-10-31,30.976043805612594
+DECK,Deckers Brands,Consumer Discretionary,Footwear,Large Cap,1993-10-15,33.01848049281314
+DE,Deere & Company,Industrials,Agricultural & Farm Machinery,Large Cap,1972-06-01,54.390143737166326
+DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",Large Cap,2016-08-17,10.179329226557153
+DAL,Delta Air Lines,Industrials,Passenger Airlines,Large Cap,2007-05-03,19.471594798083505
+DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,Large Cap,1985-07-22,41.25119780971937
+DXCM,Dexcom,Health Care,Health Care Equipment,Large Cap,2005-04-14,21.522245037645447
+FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,Large Cap,2012-10-12,14.026009582477755
+DLR,Digital Realty,Real Estate,Data Center REITs,Large Cap,2004-10-29,21.97946611909651
+DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,Large Cap,2009-11-13,16.93908281998631
+DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,Large Cap,1995-03-07,31.627652292950035
+D,Dominion Energy,Utilities,Multi-Utilities,Large Cap,1980-03-17,46.59822039698837
+DPZ,Domino's,Consumer Discretionary,Restaurants,Large Cap,2004-07-13,22.275154004106778
+DASH,DoorDash,Consumer Discretionary,Specialized Consumer Services,Large Cap,2020-12-09,5.867214236824093
+DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1980-03-17,46.59822039698837
+DOW,Dow Inc.,Materials,Commodity Chemicals,Large Cap,2019-03-20,7.592060232717317
+DHI,D. R. Horton,Consumer Discretionary,Homebuilding,Large Cap,1992-06-05,34.379192334017795
+DTE,DTE Energy,Utilities,Multi-Utilities,Large Cap,1962-01-02,64.8021902806297
+DUK,Duke Energy,Utilities,Electric Utilities,Large Cap,1980-03-17,46.59822039698837
+DD,DuPont,Industrials,Industrial Conglomerates,Large Cap,1972-06-01,54.390143737166326
+ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,Large Cap,1972-06-01,54.390143737166326
+EBAY,eBay Inc.,Consumer Discretionary,Broadline Retail,Large Cap,1998-09-24,28.076659822039698
+ECL,Ecolab,Materials,Specialty Chemicals,Large Cap,1973-02-21,53.66461327857632
+EIX,Edison International,Utilities,Electric Utilities,Large Cap,1973-05-03,53.47022587268994
+EW,Edwards Lifesciences,Health Care,Health Care Equipment,Large Cap,2000-03-27,26.570841889117045
+ELV,Elevance Health,Health Care,Managed Health Care,Large Cap,2001-10-30,24.97741273100616
+EME,Emcor,Industrials,Construction & Engineering,Large Cap,1995-01-10,31.78097193702943
+EMR,Emerson Electric,Industrials,Electrical Components & Equipment,Large Cap,1972-06-01,54.390143737166326
+ETR,Entergy,Utilities,Electric Utilities,Large Cap,1972-06-01,54.390143737166326
+EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,Large Cap,1989-10-04,37.04859685147159
+EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,Large Cap,1980-03-17,46.59822039698837
+EFX,Equifax,Industrials,Research & Consulting Services,Large Cap,1980-03-17,46.59822039698837
+EQIX,Equinix,Real Estate,Data Center REITs,Large Cap,2000-08-11,26.195756331279945
+ERIE,Erie Indemnity,Financials,Insurance Brokers,Large Cap,1995-10-02,31.055441478439427
+ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,Large Cap,1994-06-07,32.375085557837096
+EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,Large Cap,1995-11-17,30.92950034223135
+EG,Everest Group,Financials,Reinsurance,Large Cap,1995-10-03,31.052703627652292
+EVRG,Evergy,Utilities,Electric Utilities,Large Cap,1973-02-21,53.66461327857632
+ES,Eversource Energy,Utilities,Electric Utilities,Large Cap,1973-02-21,53.66461327857632
+EXC,Exelon,Utilities,Electric Utilities,Large Cap,1973-05-02,53.47296372347707
+EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large Cap,2005-07-21,21.253935660506503
+EXPD,Expeditors International,Industrials,Air Freight & Logistics,Large Cap,1984-09-26,42.06981519507187
+EXR,Extra Space Storage,Real Estate,Self-Storage REITs,Large Cap,2004-08-16,22.182067077344286
+XOM,ExxonMobil,Energy,Integrated Oil & Gas,Large Cap,1962-01-02,64.8021902806297
+FFIV,"F5, Inc.",Information Technology,Communications Equipment,Large Cap,1999-06-04,27.38398357289528
+FDS,FactSet,Financials,Financial Exchanges & Data,Large Cap,1996-06-28,30.316221765913756
+FICO,Fair Isaac,Information Technology,Application Software,Large Cap,1987-07-22,39.252566735112936
+FAST,Fastenal,Industrials,Trading Companies & Distributors,Large Cap,1987-08-20,39.17316906228611
+FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,Large Cap,1973-05-03,53.47022587268994
+FDX,FedEx,Industrials,Air Freight & Logistics,Large Cap,1978-04-12,48.5284052019165
+FERG,Ferguson Enterprises,Industrials,Trading Companies & Distributors,Large Cap,2010-01-05,16.79397672826831
+FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,Large Cap,2001-06-20,25.338809034907598
+FITB,Fifth Third Bancorp,Financials,Regional Banks,Large Cap,1980-03-17,46.59822039698837
+FSLR,First Solar,Information Technology,Semiconductors,Large Cap,2006-11-17,19.928815879534564
+FE,FirstEnergy,Utilities,Electric Utilities,Large Cap,1997-11-10,28.947296372347708
+FLEX,Flex Ltd.,Information Technology,Electronic Manufacturing Services,Large Cap,1994-03-18,32.596851471594796
+F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,Large Cap,1972-06-01,54.390143737166326
+FTNT,Fortinet,Information Technology,Systems Software,Large Cap,2009-11-18,16.92539356605065
+FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,Large Cap,2016-07-05,10.297056810403832
+FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,Large Cap,2019-03-12,7.613963039014374
+FOX,Fox Corporation (Class B),Communication Services,Broadcasting,Large Cap,2019-03-13,7.611225188227242
+BEN,Franklin Resources,Financials,Asset Management & Custody Banks,Large Cap,1983-09-23,43.08008213552361
+FCX,Freeport-McMoRan,Materials,Copper,Large Cap,1995-07-10,31.28542094455852
+GRMN,Garmin,Consumer Discretionary,Consumer Electronics,Large Cap,2000-12-08,25.869952087611225
+IT,Gartner,Information Technology,IT Consulting & Other Services,Large Cap,1993-10-05,33.045859000684466
+GE,GE Aerospace,Industrials,Aerospace & Defense,Large Cap,1962-01-02,64.8021902806297
+GEN,Gen Digital,Information Technology,Systems Software,Large Cap,1989-06-23,37.3305954825462
+GNRC,Generac,Industrials,Heavy Electrical Equipment,Large Cap,2010-02-11,16.692676249144423
+GD,General Dynamics,Industrials,Aerospace & Defense,Large Cap,1962-01-02,64.8021902806297
+GIS,General Mills,Consumer Staples,Packaged Foods & Meats,Large Cap,1980-03-17,46.59822039698837
+GM,General Motors,Consumer Discretionary,Automobile Manufacturers,Large Cap,2010-11-18,15.926078028747433
+GPC,Genuine Parts Company,Consumer Discretionary,Distributors,Large Cap,1980-03-17,46.59822039698837
+GILD,Gilead Sciences,Health Care,Biotechnology,Large Cap,1992-01-22,34.74880219028063
+GPN,Global Payments,Financials,Transaction & Payment Processing Services,Large Cap,2001-01-16,25.763175906913073
+GL,Globe Life,Financials,Life & Health Insurance,Large Cap,1980-10-01,46.05612594113621
+GDDY,GoDaddy,Information Technology,Internet Services & Infrastructure,Large Cap,2015-03-31,11.561943874058864
+GS,Goldman Sachs,Financials,Investment Banking & Brokerage,Large Cap,1999-05-04,27.468856947296374
+HAL,Halliburton,Energy,Oil & Gas Equipment & Services,Large Cap,1972-06-01,54.390143737166326
+HIG,Hartford (The),Financials,Property & Casualty Insurance,Large Cap,1995-12-15,30.85284052019165
+HAS,Hasbro,Consumer Discretionary,Leisure Products,Large Cap,1980-03-17,46.59822039698837
+HCA,HCA Healthcare,Health Care,Health Care Facilities,Large Cap,2011-03-10,15.619438740588638
+DOC,Healthpeak Properties,Real Estate,Health Care REITs,Large Cap,1985-05-23,41.4154688569473
+HSIC,Henry Schein,Health Care,Health Care Distributors,Large Cap,1995-11-03,30.967830253251197
+HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,Large Cap,1980-03-17,46.59822039698837
+HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",Large Cap,2015-10-19,11.008898015058179
+HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large Cap,2013-12-12,12.85968514715948
+HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,Large Cap,1981-09-22,45.08145106091718
+HON,Honeywell Technologies,Industrials,Industrial Conglomerates,Large Cap,1962-01-02,64.8021902806297
+HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,Large Cap,1980-03-17,46.59822039698837
+HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,Large Cap,1980-03-17,46.59822039698837
+HWM,Howmet Aerospace,Industrials,Aerospace & Defense,Large Cap,2016-11-01,9.971252566735114
+HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",Large Cap,1962-01-02,64.8021902806297
+HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1972-06-05,54.379192334017795
+HUM,Humana,Health Care,Managed Health Care,Large Cap,1981-12-31,44.80766598220397
+HBAN,Huntington Bancshares,Financials,Regional Banks,Large Cap,1980-03-17,46.59822039698837
+HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,Large Cap,2011-03-22,15.586584531143053
+IBM,IBM,Information Technology,IT Consulting & Other Services,Large Cap,1962-01-02,64.8021902806297
+IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1989-06-02,37.38809034907597
+IDXX,Idexx Laboratories,Health Care,Health Care Equipment,Large Cap,1991-06-21,35.337440109514034
+ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1973-03-13,53.609856262833674
+ILMN,"Illumina, Inc.",Health Care,Life Sciences Tools & Services,Large Cap,2000-07-28,26.234086242299796
+INCY,Incyte,Health Care,Biotechnology,Large Cap,1993-11-04,32.9637234770705
+IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,Large Cap,2017-05-12,9.44558521560575
+PODD,Insulet Corporation,Health Care,Health Care Equipment,Large Cap,2007-05-15,19.43874058863792
+INTC,Intel,Information Technology,Semiconductors,Large Cap,1980-03-17,46.59822039698837
+IBKR,Interactive Brokers,Financials,Investment Banking & Brokerage,Large Cap,2007-05-04,19.468856947296374
+ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,Large Cap,2005-11-16,20.930869267624914
+IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,Large Cap,1974-12-17,51.846680355920604
+IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,Large Cap,1962-01-02,64.8021902806297
+INTU,Intuit,Information Technology,Application Software,Large Cap,1993-03-12,33.61259411362081
+ISRG,Intuitive Surgical,Health Care,Health Care Equipment,Large Cap,2000-06-16,26.349075975359344
+IVZ,Invesco,Financials,Asset Management & Custody Banks,Large Cap,1995-08-25,31.159479808350444
+INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,Large Cap,2017-02-01,9.71937029431896
+IQV,IQVIA,Health Care,Life Sciences Tools & Services,Large Cap,2013-05-09,13.453798767967145
+IRM,Iron Mountain,Real Estate,Other Specialized REITs,Large Cap,1996-02-01,30.72142368240931
+JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,Large Cap,1983-11-22,42.91581108829569
+JBL,Jabil,Information Technology,Electronic Manufacturing Services,Large Cap,1993-05-03,33.47022587268994
+JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,Large Cap,1985-11-20,40.91991786447639
+J,Jacobs Solutions,Industrials,Construction & Engineering,Large Cap,1980-03-17,46.59822039698837
+JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,Large Cap,1962-01-02,64.8021902806297
+JCI,Johnson Controls,Industrials,Building Products,Large Cap,1987-09-28,39.06639288158795
+JPM,JPMorgan Chase,Financials,Diversified Banks,Large Cap,1980-03-17,46.59822039698837
+KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Large Cap,2008-05-07,18.458590006844627
+KEY,KeyCorp,Financials,Regional Banks,Large Cap,1987-11-05,38.96235455167693
+KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,Large Cap,2014-10-20,12.005475701574264
+KMB,Kimberly-Clark,Consumer Staples,Household Products,Large Cap,1980-03-17,46.59822039698837
+KIM,Kimco Realty,Real Estate,Retail REITs,Large Cap,1991-11-22,34.91581108829569
+KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,Large Cap,2011-02-11,15.693360711841205
+KKR,KKR & Co.,Financials,Asset Management & Custody Banks,Large Cap,2010-07-15,16.27104722792608
+KLAC,KLA Corporation,Information Technology,Semiconductor Materials & Equipment,Large Cap,1980-10-08,46.03696098562629
+KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,Large Cap,2015-07-06,11.29637234770705
+KR,Kroger,Consumer Staples,Food Retail,Large Cap,1962-01-02,64.8021902806297
+LHX,L3Harris,Industrials,Aerospace & Defense,Large Cap,1981-12-31,44.80766598220397
+LH,Labcorp,Health Care,Health Care Services,Large Cap,1990-03-29,36.56673511293634
+LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment,Large Cap,1984-05-04,42.46680355920602
+LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,Large Cap,2004-12-15,21.8507871321013
+LDOS,Leidos,Industrials,Diversified Support Services,Large Cap,2006-10-17,20.01368925393566
+LEN,Lennar,Consumer Discretionary,Homebuilding,Large Cap,1980-03-17,46.59822039698837
+LII,Lennox International,Industrials,Building Products,Large Cap,1999-07-29,27.23340177960301
+LLY,Lilly (Eli),Health Care,Pharmaceuticals,Large Cap,1972-06-01,54.390143737166326
+LIN,Linde plc,Materials,Industrial Gases,Large Cap,1992-06-17,34.34633812457221
+LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,Large Cap,2005-12-21,20.83504449007529
+LMT,Lockheed Martin,Industrials,Aerospace & Defense,Large Cap,1962-01-02,64.8021902806297
+L,Loews Corporation,Financials,Multi-line Insurance,Large Cap,1980-03-17,46.59822039698837
+LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,Large Cap,1980-03-17,46.59822039698837
+LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Large Cap,2007-07-27,19.238877481177276
+LITE,Lumentum,Information Technology,Communications Equipment,Large Cap,2015-07-23,11.249828884325805
+LYB,LyondellBasell,Materials,Specialty Chemicals,Large Cap,2010-04-28,16.484599589322382
+MTB,M&T Bank,Financials,Regional Banks,Large Cap,1980-03-17,46.59822039698837
+MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,Large Cap,2011-06-24,15.329226557152635
+MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large Cap,1998-03-23,28.583162217659137
+MLM,Martin Marietta Materials,Materials,Construction Materials,Large Cap,1994-02-17,32.67624914442163
+MRVL,Marvell Technology,Information Technology,Semiconductors,Large Cap,2000-06-30,26.310746064339494
+MAS,Masco,Industrials,Building Products,Large Cap,1980-03-17,46.59822039698837
+MA,Mastercard,Financials,Transaction & Payment Processing Services,Large Cap,2006-05-25,20.410677618069816
+MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,Large Cap,1973-02-21,53.66461327857632
+MCD,McDonald's,Consumer Discretionary,Restaurants,Large Cap,1966-07-05,60.2984257357974
+MCK,McKesson,Health Care,Health Care Distributors,Large Cap,1994-11-10,31.94798083504449
+MDT,Medtronic,Health Care,Health Care Equipment,Large Cap,1973-05-02,53.47296372347707
+MRK,Merck & Co.,Health Care,Pharmaceuticals,Large Cap,1962-01-02,64.8021902806297
+META,Meta Platforms,Communication Services,Interactive Media & Services,Large Cap,2012-05-18,14.428473648186174
+MET,MetLife,Financials,Life & Health Insurance,Large Cap,2000-04-05,26.546201232032853
+MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,Large Cap,1997-11-14,28.93634496919918
+MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,Large Cap,1988-05-02,38.47227926078029
+MCHP,Microchip Technology,Information Technology,Semiconductors,Large Cap,1993-03-19,33.59342915811088
+MU,Micron Technology,Information Technology,Semiconductors,Large Cap,1984-06-01,42.390143737166326
+MSFT,Microsoft,Information Technology,Systems Software,Large Cap,1986-03-13,40.610540725530456
+MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,Large Cap,1994-01-28,32.73100616016427
+MRNA,Moderna,Health Care,Biotechnology,Large Cap,2018-12-07,7.874058863791923
+MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,Large Cap,2001-06-13,25.357973990417523
+MPWR,Monolithic Power Systems,Information Technology,Semiconductors,Large Cap,2004-11-19,21.921971252566735
+MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Large Cap,1985-12-09,40.86789869952088
+MCO,Moody's Corporation,Financials,Financial Exchanges & Data,Large Cap,1994-10-31,31.975359342915812
+MS,Morgan Stanley,Financials,Investment Banking & Brokerage,Large Cap,1993-02-23,33.659137577002056
+MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,Large Cap,1988-01-26,38.7378507871321
+MSI,Motorola Solutions,Information Technology,Communications Equipment,Large Cap,1962-01-02,64.8021902806297
+MSCI,MSCI,Financials,Financial Exchanges & Data,Large Cap,2007-11-15,18.934976043805612
+NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,Large Cap,2002-07-01,24.309377138945926
+NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals",Large Cap,1995-11-21,30.91854893908282
+NFLX,Netflix,Communication Services,Movies & Entertainment,Large Cap,2002-05-23,24.416153319644078
+NEM,Newmont,Materials,Gold,Large Cap,1980-03-17,46.59822039698837
+NWSA,News Corp (Class A),Communication Services,Publishing,Large Cap,2013-06-19,13.34154688569473
+NWS,News Corp (Class B),Communication Services,Publishing,Large Cap,2013-06-19,13.34154688569473
+NEE,NextEra Energy,Utilities,Multi-Utilities,Large Cap,1973-02-21,53.66461327857632
+NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Large Cap,1980-12-02,45.88637919233402
+NI,NiSource,Utilities,Multi-Utilities,Large Cap,1973-02-21,53.66461327857632
+NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1980-03-18,46.59548254620123
+NSC,Norfolk Southern,Industrials,Rail Transportation,Large Cap,1982-06-02,44.388774811772755
+NTRS,Northern Trust,Financials,Asset Management & Custody Banks,Large Cap,1980-03-17,46.59822039698837
+NOC,Northrop Grumman,Industrials,Aerospace & Defense,Large Cap,1981-12-31,44.80766598220397
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large Cap,2013-01-18,13.757700205338809
+NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,Large Cap,2003-12-02,22.888432580424368
+NUE,Nucor,Materials,Steel,Large Cap,1980-03-17,46.59822039698837
+NVDA,Nvidia,Information Technology,Semiconductors,Large Cap,1999-01-22,27.748117727583846
+NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,Large Cap,1985-07-22,41.25119780971937
+NXPI,NXP Semiconductors,Information Technology,Semiconductors,Large Cap,2010-08-06,16.210814510609172
+ORLY,O'Reilly Automotive,Consumer Discretionary,Automotive Retail,Large Cap,1993-04-23,33.497604380561256
+OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,Large Cap,1981-12-31,44.80766598220397
+ODFL,Old Dominion,Industrials,Cargo Ground Transportation,Large Cap,1991-10-24,34.99520876112252
+OMC,Omnicom Group,Communication Services,Advertising,Large Cap,1980-03-17,46.59822039698837
+ON,ON Semiconductor,Information Technology,Semiconductors,Large Cap,2000-05-02,26.472279260780287
+OKE,Oneok,Energy,Oil & Gas Storage & Transportation,Large Cap,1980-10-01,46.05612594113621
+ORCL,Oracle Corporation,Information Technology,Application Software,Large Cap,1986-03-12,40.61327857631759
+OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,Large Cap,2020-03-19,6.5927446954141
+PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,Large Cap,1980-03-17,46.59822039698837
+PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,Large Cap,2000-01-28,26.732375085557837
+PLTR,Palantir Technologies,Information Technology,Application Software,Large Cap,2020-09-30,6.05886379192334
+PANW,Palo Alto Networks,Information Technology,Systems Software,Large Cap,2012-07-20,14.255989048596852
+PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1980-03-17,46.59822039698837
+PAYX,Paychex,Industrials,Human Resource & Employment Services,Large Cap,1983-08-26,43.15674195756331
+PYPL,PayPal,Financials,Transaction & Payment Processing Services,Large Cap,2015-07-06,11.29637234770705
+PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1973-05-03,53.47022587268994
+PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Large Cap,1972-06-01,54.390143737166326
+PFE,Pfizer,Health Care,Pharmaceuticals,Large Cap,1972-06-01,54.390143737166326
+PCG,PG&E Corporation,Utilities,Multi-Utilities,Large Cap,1972-06-01,54.390143737166326
+PM,Philip Morris International,Consumer Staples,Tobacco,Large Cap,2008-03-17,18.598220396988363
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,Large Cap,2012-04-12,14.52703627652293
+PNW,Pinnacle West Capital,Utilities,Multi-Utilities,Large Cap,1973-02-21,53.66461327857632
+PNC,PNC Financial Services,Financials,Diversified Banks,Large Cap,1975-11-17,50.92950034223135
+PPG,PPG Industries,Materials,Specialty Chemicals,Large Cap,1980-03-17,46.59822039698837
+PPL,PPL Corporation,Utilities,Electric Utilities,Large Cap,1980-03-17,46.59822039698837
+PFG,Principal Financial Group,Financials,Life & Health Insurance,Large Cap,2001-10-23,24.996577686516083
+PG,Procter & Gamble,Consumer Staples,Personal Care Products,Large Cap,1962-01-02,64.8021902806297
+PGR,Progressive Corporation,Financials,Property & Casualty Insurance,Large Cap,1980-03-17,46.59822039698837
+PLD,Prologis,Real Estate,Industrial REITs,Large Cap,1997-11-21,28.917180013689254
+PRU,Prudential Financial,Financials,Life & Health Insurance,Large Cap,2001-12-13,24.856947296372347
+PEG,Public Service Enterprise Group,Utilities,Electric Utilities,Large Cap,1980-01-02,46.80355920602327
+PTC,PTC Inc.,Information Technology,Application Software,Large Cap,1989-12-08,36.87063655030801
+PSA,Public Storage,Real Estate,Self-Storage REITs,Large Cap,1980-11-18,45.92470910335387
+PHM,PulteGroup,Consumer Discretionary,Homebuilding,Large Cap,1980-03-17,46.59822039698837
+PWR,Quanta Services,Industrials,Construction & Engineering,Large Cap,1998-02-12,28.689938398357288
+QCOM,Qualcomm,Information Technology,Semiconductors,Large Cap,1991-12-13,34.85831622176591
+DGX,Quest Diagnostics,Health Care,Health Care Services,Large Cap,1996-12-17,29.845311430527037
+RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Large Cap,1997-06-12,29.360711841204655
+RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,Large Cap,1983-07-01,43.31006160164271
+RTX,RTX Corporation,Industrials,Aerospace & Defense,Large Cap,1962-04-02,64.55578370978782
+O,Realty Income,Real Estate,Retail REITs,Large Cap,1994-10-18,32.01095140314853
+REG,Regency Centers,Real Estate,Retail REITs,Large Cap,1993-10-29,32.98015058179329
+REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,Large Cap,1991-04-02,35.5564681724846
+RF,Regions Financial Corporation,Financials,Regional Banks,Large Cap,1980-03-17,46.59822039698837
+RSG,Republic Services,Industrials,Environmental & Facilities Services,Large Cap,1998-07-01,28.309377138945926
+RMD,ResMed|,Health Care,Health Care Equipment,Large Cap,1995-06-02,31.38945927446954
+RVTY,Revvity,Health Care,Health Care Equipment,Large Cap,1973-02-21,53.66461327857632
+HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,Large Cap,2021-07-29,5.232032854209446
+ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,Large Cap,1981-12-31,44.80766598220397
+ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,Large Cap,1980-03-17,46.59822039698837
+ROP,Roper Technologies,Information Technology,Electronic Equipment & Instruments,Large Cap,1992-02-13,34.68856947296372
+ROST,Ross Stores,Consumer Discretionary,Apparel Retail,Large Cap,1985-08-08,41.204654346338124
+RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Large Cap,1993-04-28,33.4839151266256
+SPGI,S&P Global,Financials,Financial Exchanges & Data,Large Cap,1973-02-21,53.66461327857632
+CRM,Salesforce,Information Technology,Application Software,Large Cap,2004-06-23,22.32991101984942
+SBAC,SBA Communications,Real Estate,Telecom Tower REITs,Large Cap,1999-06-16,27.351129363449694
+SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,Large Cap,1981-12-31,44.80766598220397
+STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",Large Cap,2002-12-11,23.863107460643395
+SRE,Sempra,Utilities,Multi-Utilities,Large Cap,1998-06-29,28.314852840520192
+NOW,ServiceNow,Information Technology,Systems Software,Large Cap,2012-06-29,14.313483915126625
+SHW,Sherwin-Williams,Materials,Specialty Chemicals,Large Cap,1980-03-17,46.59822039698837
+SPG,Simon Property Group,Real Estate,Retail REITs,Large Cap,1993-12-14,32.85420944558521
+SWKS,Skyworks Solutions,Information Technology,Semiconductors,Large Cap,1984-09-07,42.12183436002738
+SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,Large Cap,1994-10-31,31.975359342915812
+SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1973-02-21,53.66461327857632
+SO,Southern Company,Utilities,Electric Utilities,Large Cap,1981-12-31,44.80766598220397
+LUV,Southwest Airlines,Industrials,Passenger Airlines,Large Cap,1980-01-02,46.80355920602327
+SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1980-03-17,46.59822039698837
+SBUX,Starbucks,Consumer Discretionary,Restaurants,Large Cap,1992-06-26,34.32169746748802
+STT,State Street Corporation,Financials,Asset Management & Custody Banks,Large Cap,1980-03-17,46.59822039698837
+STLD,Steel Dynamics,Materials,Steel,Large Cap,1996-11-22,29.913757700205338
+STE,Steris,Health Care,Health Care Equipment,Large Cap,1992-06-01,34.390143737166326
+SYK,Stryker Corporation,Health Care,Health Care Equipment,Large Cap,1980-03-17,46.59822039698837
+SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",Large Cap,2007-03-29,19.567419575633128
+SYF,Synchrony Financial,Financials,Consumer Finance,Large Cap,2014-07-31,12.227241615331964
+SNPS,Synopsys,Information Technology,Application Software,Large Cap,1992-02-26,34.652977412731005
+SYY,Sysco,Consumer Staples,Food Distributors,Large Cap,1973-05-08,53.45653661875428
+TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,Large Cap,2007-04-19,19.509924709103355
+TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,Large Cap,1986-04-02,40.55578370978782
+TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,Large Cap,1997-04-15,29.519507186858316
+TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Large Cap,2000-10-06,26.04243668720055
+TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,Large Cap,2010-12-07,15.874058863791923
+TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,Large Cap,1973-02-21,53.66461327857632
+TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,Large Cap,2007-06-14,19.356605065023956
+TDY,Teledyne Technologies,Information Technology,Electronic Equipment & Instruments,Large Cap,1999-11-23,26.913073237508556
+TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,Large Cap,1973-02-21,53.66461327857632
+TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,Large Cap,2010-06-29,16.314852840520192
+TXN,Texas Instruments,Information Technology,Semiconductors,Large Cap,1972-06-01,54.390143737166326
+TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,Large Cap,1980-03-17,46.59822039698837
+TXT,Textron,Industrials,Aerospace & Defense,Large Cap,1973-02-21,53.66461327857632
+TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,Large Cap,1980-03-17,46.59822039698837
+TJX,TJX Companies,Consumer Discretionary,Apparel Retail,Large Cap,1987-06-26,39.32375085557837
+TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,Large Cap,1999-10-19,27.00889801505818
+TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,Large Cap,1994-02-17,32.67624914442163
+TT,Trane Technologies,Industrials,Building Products,Large Cap,1980-03-17,46.59822039698837
+TDG,TransDigm Group,Industrials,Aerospace & Defense,Large Cap,2006-03-15,20.605065023956193
+TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,Large Cap,1975-11-17,50.92950034223135
+TRMB,Trimble Inc.,Information Technology,Application Software,Large Cap,1990-07-20,36.257357973990416
+TFC,Truist Financial,Financials,Diversified Banks,Large Cap,1980-03-18,46.59548254620123
+TWLO,Twilio,Information Technology,Systems Software,Large Cap,2016-06-23,10.329911019849419
+TYL,Tyler Technologies,Information Technology,Application Software,Large Cap,1980-03-17,46.59822039698837
+TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,Large Cap,1980-03-17,46.59822039698837
+USB,U.S. Bancorp,Financials,Diversified Banks,Large Cap,1973-05-03,53.47022587268994
+UBER,Uber,Industrials,Passenger Ground Transportation,Large Cap,2019-05-10,7.452429842573579
+UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,Large Cap,1980-03-17,46.59822039698837
+ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,Large Cap,2007-10-25,18.99247091033539
+UNP,Union Pacific Corporation,Industrials,Rail Transportation,Large Cap,1980-01-02,46.80355920602327
+UAL,United Airlines Holdings,Industrials,Passenger Airlines,Large Cap,2006-02-06,20.706365503080082
+UPS,United Parcel Service,Industrials,Air Freight & Logistics,Large Cap,1999-11-10,26.94866529774127
+URI,United Rentals,Industrials,Trading Companies & Distributors,Large Cap,1997-12-18,28.843258042436688
+UNH,UnitedHealth Group,Health Care,Managed Health Care,Large Cap,1984-10-17,42.012320328542096
+UHS,Universal Health Services,Health Care,Health Care Facilities,Large Cap,1981-07-09,45.28678986995209
+VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,Large Cap,1982-01-04,44.79671457905544
+VEEV,Veeva Systems,Health Care,Health Care Technology,Large Cap,2013-10-16,13.015742642026009
+VTR,Ventas,Real Estate,Health Care REITs,Large Cap,1997-05-05,29.464750171115675
+VRSN,Verisign,Information Technology,Internet Services & Infrastructure,Large Cap,1998-01-30,28.725530458590008
+VRSK,Verisk Analytics,Industrials,Research & Consulting Services,Large Cap,2009-10-07,17.0403832991102
+VZ,Verizon,Communication Services,Integrated Telecommunication Services,Large Cap,1983-11-21,42.91854893908282
+VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,Large Cap,1991-07-24,35.24709103353867
+VRT,Vertiv,Industrials,Electrical Components & Equipment,Large Cap,2018-08-02,8.2217659137577
+VTRS,Viatris,Health Care,Pharmaceuticals,Large Cap,1980-03-17,46.59822039698837
+VICI,Vici Properties,Real Estate,Hotel & Resort REITs,Large Cap,2018-01-02,8.802190280629706
+V,Visa Inc.,Financials,Transaction & Payment Processing Services,Large Cap,2008-03-19,18.5927446954141
+VST,Vistra Corp.,Utilities,Electric Utilities,Large Cap,2016-10-05,10.04517453798768
+VMC,Vulcan Materials Company,Materials,Construction Materials,Large Cap,1973-02-21,53.66461327857632
+WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,Large Cap,1973-10-23,52.99657768651608
+GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,Large Cap,1973-02-21,53.66461327857632
+WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,Large Cap,1995-06-16,31.351129363449694
+WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,Large Cap,1972-08-25,54.157426420260094
+DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,Large Cap,1962-01-02,64.8021902806297
+WM,Waste Management,Industrials,Environmental & Facilities Services,Large Cap,1988-06-22,38.332648870636554
+WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,Large Cap,1995-11-17,30.92950034223135
+WEC,WEC Energy Group,Utilities,Electric Utilities,Large Cap,1980-03-17,46.59822039698837
+WFC,Wells Fargo,Financials,Diversified Banks,Large Cap,1972-06-01,54.390143737166326
+WELL,Welltower,Real Estate,Health Care REITs,Large Cap,1980-03-19,46.5927446954141
+WST,West Pharmaceutical Services,Health Care,Health Care Supplies,Large Cap,1980-03-17,46.59822039698837
+WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",Large Cap,1978-10-31,47.97535934291581
+WY,Weyerhaeuser,Real Estate,Timber REITs,Large Cap,1973-05-03,53.47022587268994
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Homefurnishing Retail,Large Cap,1983-07-07,43.29363449691992
+WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,Large Cap,1981-12-31,44.80766598220397
+WTW,Willis Towers Watson,Financials,Insurance Brokers,Large Cap,2001-06-12,25.360711841204655
+WDAY,"Workday, Inc.",Information Technology,Application Software,Large Cap,2012-10-12,14.026009582477755
+WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,Large Cap,2002-10-25,23.991786447638603
+XEL,Xcel Energy,Utilities,Multi-Utilities,Large Cap,1973-02-21,53.66461327857632
+XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,Large Cap,2011-10-13,15.025325119780971
+YUM,Yum! Brands,Consumer Discretionary,Restaurants,Large Cap,1997-09-17,29.09514031485284
+ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,Large Cap,1991-08-15,35.186858316221766
+ZBH,Zimmer Biomet,Health Care,Health Care Equipment,Large Cap,2001-07-25,25.242984257357975
+ZTS,Zoetis,Health Care,Pharmaceuticals,Large Cap,2013-02-01,13.71937029431896
+AA,Alcoa,Materials,Aluminum,Mid Cap,1962-01-02,64.8021902806297
+AAL,American Airlines Group,Industrials,Passenger Airlines,Mid Cap,2005-09-27,21.06776180698152
+AAON,AAON,Industrials,Building Products,Mid Cap,1992-12-16,33.84804928131417
+ACI,Albertsons,Consumer Staples,Food Retail,Mid Cap,2020-06-26,6.321697467488022
+ACM,AECOM,Industrials,Construction & Engineering,Mid Cap,2007-05-10,19.45242984257358
+ADC,Agree Realty,Real Estate,Retail REITs,Mid Cap,1994-04-15,32.5201916495551
+AEIS,Advanced Energy,Information Technology,Semiconductor Materials & Equipment,Mid Cap,1995-11-17,30.92950034223135
+AFG,American Financial Group,Financials,Multi-line Insurance,Mid Cap,1980-03-17,46.59822039698837
+AGCO,AGCO,Industrials,Agricultural & Farm Machinery,Mid Cap,1992-04-16,34.5160848733744
+AGNC,AGNC Investment,Financials,Mortgage REITs,Mid Cap,2008-05-15,18.43668720054757
+AIT,Applied Industrial Technologies,Industrials,Trading Companies & Distributors,Mid Cap,1980-03-17,46.59822039698837
+ALGM,Allegro MicroSystems,Information Technology,Semiconductors,Mid Cap,2020-10-29,5.979466119096509
+ALK,Alaska Air Group,Industrials,Passenger Airlines,Mid Cap,1980-03-17,46.59822039698837
+ALLY,Ally Financial,Financials,Consumer Finance,Mid Cap,2014-01-28,12.731006160164272
+ALSN,Allison Transmission,Industrials,Construction Machinery & Heavy Transportation Equipment,Mid Cap,2012-03-15,14.603696098562628
+ALV,Autoliv,Consumer Discretionary,Automotive Parts & Equipment,Mid Cap,1997-04-28,29.4839151266256
+AM,Antero Midstream,Energy,Oil & Gas Storage & Transportation,Mid Cap,2017-05-04,9.467488021902806
+AMG,Affiliated Managers Group,Financials,Asset Management & Custody Banks,Mid Cap,1997-11-21,28.917180013689254
+AMH,American Homes 4 Rent,Real Estate,Single-Family Residential REITs,Mid Cap,2013-08-01,13.22381930184805
+AMKR,Amkor Technology,Information Technology,Semiconductors,Mid Cap,1998-05-01,28.476386036960985
+AN,AutoNation,Consumer Discretionary,Automotive Retail,Mid Cap,1990-05-11,36.44900752908966
+ANF,Abercrombie & Fitch,Consumer Discretionary,Apparel Retail,Mid Cap,1996-09-26,30.069815195071868
+APG,APi Group,Industrials,Construction & Engineering,Mid Cap,2020-04-29,6.480492813141684
+APPF,AppFolio,Information Technology,Application Software,Mid Cap,2015-06-26,11.323750855578371
+AR,Antero Resources,Energy,Oil & Gas Exploration & Production,Mid Cap,2013-10-10,13.032169746748803
+ARMK,Aramark,Consumer Discretionary,Distributors,Mid Cap,2013-12-12,12.85968514715948
+ARW,Arrow Electronics,Information Technology,Technology Distributors,Mid Cap,1980-03-17,46.59822039698837
+ARWR,Arrowhead Pharmaceuticals,Health Care,Biotechnology,Mid Cap,1993-12-16,32.84873374401095
+ASB,Associated Bank,Financials,Regional Banks,Mid Cap,1980-03-17,46.59822039698837
+ASH,Ashland Global,Materials,Diversified Chemicals,Mid Cap,1980-03-17,46.59822039698837
+ATI,ATI Inc.,Industrials,Aerospace & Defense,Mid Cap,1999-11-29,26.89664613278576
+ATR,AptarGroup,Materials,"Metal, Glass & Plastic Containers",Mid Cap,1993-04-23,33.497604380561256
+AVAV,AeroVironment,Industrials,Aerospace & Defense,Mid Cap,2007-01-23,19.745379876796715
+AVNT,Avient,Materials,Specialty Chemicals,Mid Cap,1999-09-13,27.107460643394933
+AVT,Avnet,Information Technology,Technology Distributors,Mid Cap,1973-05-03,53.47022587268994
+AVTR,Avantor,Health Care,Life Sciences Tools & Services,Mid Cap,2019-05-17,7.433264887063655
+AXTA,Axalta,Materials,Specialty Chemicals,Mid Cap,2014-11-12,11.942505133470226
+AYI,Acuity Brands,Industrials,Electrical Components & Equipment,Mid Cap,2001-12-03,24.88432580424367
+BAH,Booz Allen Hamilton,Industrials,Research & Consulting Services,Mid Cap,2010-11-18,15.926078028747433
+BBWI,"Bath & Body Works, Inc.",Consumer Discretionary,Other Specialty Retail,Mid Cap,1982-04-01,44.558521560574945
+BC,Brunswick,Consumer Discretionary,Leisure Products,Mid Cap,1981-12-31,44.80766598220397
+BCO,Brink's,Industrials,Security & Alarm Services,Mid Cap,1996-01-03,30.80082135523614
+BDC,Belden Inc.,Information Technology,Electronic Components,Mid Cap,1993-11-24,32.90896646132786
+BHF,Brighthouse Financial,Financials,Life & Health Insurance,Mid Cap,2017-07-17,9.264887063655031
+BILL,Bill Holdings,Information Technology,Application Software,Mid Cap,2019-12-12,6.861054072553046
+BIO,Bio-Rad Laboratories,Health Care,Life Sciences Tools & Services,Mid Cap,1980-02-27,46.65023956194388
+BJ,BJ's Wholesale Club,Consumer Staples,Consumer Staples Merchandise Retail,Mid Cap,2018-06-28,8.317590691307323
+BKH,Black Hills Corporation,Utilities,Multi-Utilities,Mid Cap,1973-02-22,53.661875427789184
+BMRN,BioMarin Pharmaceutical,Health Care,Biotechnology,Mid Cap,1999-07-26,27.241615331964407
+BRKR,Bruker,Health Care,Health Care Equipment,Mid Cap,2000-08-04,26.21492128678987
+BROS,Dutch Bros Inc.,Consumer Discretionary,Restaurants,Mid Cap,2021-09-15,5.100616016427105
+BRX,Brixmor Property Group,Real Estate,Retail REITs,Mid Cap,2013-10-30,12.97741273100616
+BSY,Bentley Systems,Information Technology,Application Software,Mid Cap,2020-09-23,6.078028747433265
+BURL,Burlington Stores,Consumer Discretionary,Apparel Retail,Mid Cap,2013-10-02,13.05407255304586
+BWA,BorgWarner,Consumer Discretionary,Automotive Parts & Equipment,Mid Cap,1993-08-13,33.190965092402465
+BWXT,BWX Technologies,Industrials,Aerospace & Defense,Mid Cap,2010-08-02,16.2217659137577
+BYD,Boyd Gaming,Consumer Discretionary,Casinos & Gaming,Mid Cap,1993-10-15,33.01848049281314
+CACI,CACI International,Industrials,Diversified Support Services,Mid Cap,1980-03-17,46.59822039698837
+CAR,Avis Budget Group,Industrials,Passenger Ground Transportation,Mid Cap,1983-09-14,43.1047227926078
+CBSH,Commerce Bancshares,Financials,Regional Banks,Mid Cap,1980-03-17,46.59822039698837
+CBT,Cabot Corp,Materials,Diversified Chemicals,Mid Cap,1980-11-05,45.960301163586585
+CCK,Crown Holdings,Materials,Paper & Plastic Packaging Products & Materials,Mid Cap,1980-03-17,46.59822039698837
+CDE,Coeur Mining,Materials,Gold,Mid Cap,1980-03-17,46.59822039698837
+CDP,COPT Defense Properties,Real Estate,Office REITs,Mid Cap,1991-12-31,34.809034907597535
+CELH,Celsius Holdings,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Mid Cap,2007-01-22,19.748117727583846
+CFR,Frost Bank,Financials,Regional Banks,Mid Cap,1980-03-17,46.59822039698837
+CG,Carlyle Group (The),Financials,Asset Management & Custody Banks,Mid Cap,2012-05-03,14.469541409993155
+CGNX,Cognex,Information Technology,Electronic Equipment & Instruments,Mid Cap,1989-07-20,37.256673511293634
+CHDN,Churchill Downs Inc.,Consumer Discretionary,Casinos & Gaming,Mid Cap,1993-03-29,33.56605065023956
+CHE,Chemed Corp.,Health Care,Health Care Services,Mid Cap,1973-05-03,53.47022587268994
+CHH,Choice Hotels,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid Cap,1996-10-16,30.015058179329227
+CHRD,Chord Energy,Energy,Oil & Gas Exploration & Production,Mid Cap,2010-06-17,16.347707049965777
+CHWY,Chewy,Consumer Discretionary,Other Specialty Retail,Mid Cap,2019-06-14,7.356605065023956
+CLF,Cleveland-Cliffs,Materials,Steel,Mid Cap,1973-02-21,53.66461327857632
+CLH,Clean Harbors,Industrials,Environmental & Facilities Services,Mid Cap,1987-11-24,38.91033538672142
+CMC,Commercial Metals,Materials,Steel,Mid Cap,1980-03-17,46.59822039698837
+CNM,Core & Main,Industrials,Trading Companies & Distributors,Mid Cap,2021-07-22,5.25119780971937
+CNO,CNO Financial Group,Financials,Life & Health Insurance,Mid Cap,2003-09-10,23.11567419575633
+CNX,CNX Resources,Energy,Oil & Gas Exploration & Production,Mid Cap,1999-04-30,27.479808350444902
+COKE,Coca-Cola Consolidated,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,Mid Cap,1973-02-21,53.66461327857632
+COLB,Columbia Banking System,Financials,Regional Banks,Mid Cap,1992-06-16,34.34907597535934
+COLM,Columbia Sportswear,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Mid Cap,1998-03-27,28.57221081451061
+CORT,Corcept Therapeutics,Health Care,Pharmaceuticals,Mid Cap,2004-04-14,22.521560574948666
+CROX,Crocs,Consumer Discretionary,Footwear,Mid Cap,2006-02-08,20.700889801505816
+CRS,Carpenter Technology,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1973-02-21,53.66461327857632
+CRUS,Cirrus Logic,Information Technology,Semiconductors,Mid Cap,1989-06-09,37.36892539356605
+CSL,Carlisle Companies,Industrials,Industrial Conglomerates,Mid Cap,1973-02-21,53.66461327857632
+CTRE,CareTrust REIT,Real Estate,Health Care REITs,Mid Cap,2014-05-29,12.399726214921287
+CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,Mid Cap,2019-05-24,7.41409993155373
+CUBE,CubeSmart,Real Estate,Industrial REITs,Mid Cap,2004-10-22,21.998631074606433
+CUZ,Cousins Properties,Real Estate,Office REITs,Mid Cap,1980-03-17,46.59822039698837
+CVLT,CommVault Systems,Information Technology,Systems Software,Mid Cap,2006-09-22,20.082135523613964
+CW,Curtiss-Wright,Industrials,Aerospace & Defense,Mid Cap,1980-03-17,46.59822039698837
+CXT,Crane NXT,Information Technology,Electronic Equipment & Instruments,Mid Cap,1980-03-17,46.59822039698837
+CYTK,Cytokinetics,Health Care,Biotechnology,Mid Cap,2004-04-30,22.477754962354553
+DAR,Darling Ingredients,Consumer Staples,Agricultural Products & Services,Mid Cap,1994-09-09,32.11772758384668
+DBX,Dropbox,Information Technology,Application Software,Mid Cap,2018-03-23,8.583162217659138
+DCI,Donaldson Company,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1980-03-17,46.59822039698837
+DINO,HF Sinclair,Energy,Oil & Gas Refining & Marketing,Mid Cap,1980-03-17,46.59822039698837
+DKS,Dick's Sporting Goods,Consumer Discretionary,Specialty Stores,Mid Cap,2002-10-16,24.016427104722794
+DLB,Dolby,Information Technology,Application Software,Mid Cap,2005-02-17,21.675564681724847
+DOCN,DigitalOcean,Information Technology,Internet Services & Infrastructure,Mid Cap,2021-03-24,5.579739904175223
+DOCS,Doximity,Health Care,Health Care Technology,Mid Cap,2021-06-24,5.327857631759069
+DOCU,Docusign,Information Technology,Application Software,Mid Cap,2018-04-27,8.487337440109513
+DT,Dynatrace,Information Technology,Application Software,Mid Cap,2019-08-01,7.225188227241615
+DTM,DT Midstream,Energy,Oil & Gas Storage & Transportation,Mid Cap,2021-07-01,5.308692676249144
+DUOL,Duolingo,Consumer Discretionary,Education Services,Mid Cap,2021-07-28,5.234770704996578
+DY,Dycom Industries,Industrials,Construction & Engineering,Mid Cap,1984-06-04,42.38193018480493
+EAT,Brinker International,Consumer Discretionary,Restaurants,Mid Cap,1984-01-06,42.79260780287474
+EEFT,Euronet Worldwide,Financials,Transaction & Payment Processing Services,Mid Cap,1997-03-07,29.626283367556468
+EGP,EastGroup Properties,Real Estate,Industrial REITs,Mid Cap,1973-02-21,53.66461327857632
+EHC,Encompass Health,Health Care,Health Care Facilities,Mid Cap,1986-09-24,40.0766598220397
+ELAN,Elanco,Health Care,Pharmaceuticals,Mid Cap,2018-09-20,8.087611225188228
+ELF,e.l.f. Beauty,Consumer Staples,Personal Care Products,Mid Cap,2016-09-22,10.080766598220396
+ELS,Equity Lifestyle Properties,Real Estate,Single-Family Residential REITs,Mid Cap,1993-02-25,33.65366187542779
+ENS,EnerSys,Industrials,Electrical Components & Equipment,Mid Cap,2004-08-02,22.220396988364133
+ENSG,Ensign Group,Health Care,Health Care Facilities,Mid Cap,2007-11-09,18.951403148528406
+ENTG,Entegris,Information Technology,Semiconductor Materials & Equipment,Mid Cap,2000-07-11,26.28062970568104
+EPR,EPR Properties,Real Estate,Other Specialized REITs,Mid Cap,1997-11-18,28.92539356605065
+EQH,Equitable Holdings,Financials,Diversified Financial Services,Mid Cap,2018-05-10,8.451745379876797
+ESNT,Essent Group Ltd.,Financials,Commercial & Residential Mortgage Finance,Mid Cap,2013-10-31,12.974674880219029
+EVR,Evercore,Financials,Investment Banking & Brokerage,Mid Cap,2006-08-14,20.188911704312115
+EWBC,East West Bancorp,Financials,Regional Banks,Mid Cap,1999-02-03,27.71526351813826
+EXEL,Exelixis,Health Care,Biotechnology,Mid Cap,2000-04-17,26.51334702258727
+EXLS,EXL Service,Industrials,Data Processing & Outsourced Services,Mid Cap,2006-10-20,20.005475701574266
+EXP,Eagle Materials,Materials,Construction Materials,Mid Cap,1994-04-12,32.5284052019165
+EXPO,"Exponent, Inc.",Industrials,Research & Consulting Services,Mid Cap,1990-08-17,36.18069815195072
+FAF,First American Financial Corporation,Financials,Property & Casualty Insurance,Mid Cap,2010-05-28,16.40246406570842
+FBIN,Fortune Brands Innovations,Industrials,Building Products,Mid Cap,2011-09-16,15.099247091033538
+FCFS,FirstCash,Financials,Consumer Finance,Mid Cap,1991-06-10,35.36755646817249
+FCN,FTI Consulting,Industrials,Research & Consulting Services,Mid Cap,1996-05-09,30.45311430527036
+FFIN,First Financial Bankshares,Financials,Regional Banks,Mid Cap,1993-11-01,32.9719370294319
+FHI,Federated Hermes,Financials,Asset Management & Custody Banks,Mid Cap,1998-05-14,28.44079397672827
+FHN,First Horizon,Financials,Regional Banks,Mid Cap,1980-03-17,46.59822039698837
+FIVE,Five Below,Consumer Discretionary,Specialty Stores,Mid Cap,2012-07-19,14.258726899383984
+FLR,Fluor,Industrials,Construction & Engineering,Mid Cap,2000-12-01,25.88911704312115
+FLS,Flowserve,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1980-03-17,46.59822039698837
+FN,Fabrinet,Information Technology,Electronic Manufacturing Services,Mid Cap,2010-06-25,16.32580424366872
+FNB,FNB Corporation,Financials,Regional Banks,Mid Cap,1986-09-02,40.1368925393566
+FND,Floor & Decor,Consumer Discretionary,Home Improvement Retail,Mid Cap,2017-04-27,9.486652977412732
+FNF,Fidelity National Financial,Financials,Property & Casualty Insurance,Mid Cap,2005-10-14,21.021218343600275
+FORM,"FormFactor, Inc.",Information Technology,Semiconductor Materials & Equipment,Mid Cap,2003-06-12,23.362080766598222
+FOUR,Shift4,Financials,Transaction & Payment Processing Services,Mid Cap,2020-06-05,6.379192334017796
+FR,First Industrial Realty Trust,Real Estate,Industrial REITs,Mid Cap,1994-06-24,32.328542094455855
+FTI,TechnipFMC,Energy,Oil & Gas Equipment & Services,Mid Cap,2001-06-15,25.352498288843258
+G,Genpact,Industrials,Data Processing & Outsourced Services,Mid Cap,2007-08-02,19.222450376454482
+GATX,GATX,Industrials,Construction Machinery & Heavy Transportation Equipment,Mid Cap,1973-02-21,53.66461327857632
+GBCI,Glacier Bancorp,Financials,Regional Banks,Mid Cap,1984-03-22,42.5845311430527
+GEF,"Greif, Inc.",Materials,"Metal, Glass & Plastic Containers",Mid Cap,1996-02-28,30.647501711156742
+GGG,Graco Inc.,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1980-03-17,46.59822039698837
+GLPI,Gaming and Leisure Properties,Real Estate,Other Specialized REITs,Mid Cap,2013-10-14,13.021218343600275
+GME,GameStop,Consumer Discretionary,Computer & Electronics Retail,Mid Cap,2002-02-13,24.687200547570157
+GMED,Globus Medical,Health Care,Health Care Equipment,Mid Cap,2012-08-03,14.217659137577002
+GNTX,Gentex,Consumer Discretionary,Automotive Parts & Equipment,Mid Cap,1981-12-22,44.832306639288156
+GPK,Graphic Packaging,Materials,Paper & Plastic Packaging Products & Materials,Mid Cap,1992-12-10,33.86447638603696
+GWRE,Guidewire Software,Information Technology,Application Software,Mid Cap,2012-01-25,14.740588637919233
+GXO,GXO Logistics,Industrials,Air Freight & Logistics,Mid Cap,2021-07-22,5.25119780971937
+H,Hyatt,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid Cap,2009-11-05,16.960985626283367
+HAE,Haemonetics,Health Care,Health Care Supplies,Mid Cap,1991-05-10,35.45242984257358
+HALO,Halozyme,Health Care,Biotechnology,Mid Cap,2004-03-16,22.600958247775495
+HGV,Hilton Grand Vacations,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid Cap,2017-01-04,9.796030116358658
+HIMS,Hims & Hers Health,Health Care,Health Care Services,Mid Cap,2019-09-13,7.107460643394935
+HL,Hecla Mining,Materials,Silver,Mid Cap,1980-03-17,46.59822039698837
+HLI,Houlihan Lokey,Financials,Investment Banking & Brokerage,Mid Cap,2015-08-13,11.19233401779603
+HLNE,Hamilton Lane,Financials,Asset Management & Custody Banks,Mid Cap,2017-03-01,9.64271047227926
+HOG,Harley-Davidson,Consumer Discretionary,Motorcycle Manufacturers,Mid Cap,1986-07-08,40.290212183436005
+HOMB,Home BancShares,Financials,Regional Banks,Mid Cap,2006-06-23,20.331279945242983
+HQY,HealthEquity,Health Care,Managed Health Care,Mid Cap,2014-07-31,12.227241615331964
+HR,Healthcare Realty Trust,Real Estate,Health Care REITs,Mid Cap,1993-05-27,33.40451745379877
+HRB,H&R Block,Consumer Discretionary,Specialized Consumer Services,Mid Cap,1973-02-21,53.66461327857632
+HUBS,HubSpot,Information Technology,Application Software,Mid Cap,2014-10-09,12.035592060232718
+HWC,Hancock Whitney,Financials,Regional Banks,Mid Cap,1991-06-04,35.383983572895275
+HXL,Hexcel,Industrials,Aerospace & Defense,Mid Cap,1980-03-17,46.59822039698837
+IBOC,Intl Bancshares Corp,Financials,Regional Banks,Mid Cap,1995-08-30,31.145790554414784
+IDA,Idacorp,Utilities,Electric Utilities,Mid Cap,1973-02-21,53.66461327857632
+IDCC,InterDigital,Information Technology,Communications Equipment,Mid Cap,1981-11-12,44.941820670773446
+IESC,IES Holdings,Industrials,Construction & Engineering,Mid Cap,1998-01-28,28.73100616016427
+INGR,Ingredion,Consumer Staples,Agricultural Products & Services,Mid Cap,1997-12-11,28.862422997946613
+IPGP,IPG Photonics,Information Technology,Electronic Manufacturing Services,Mid Cap,2006-12-13,19.857631759069132
+IRT,Independence Realty Trust,Real Estate,Multi-Family Residential REITs,Mid Cap,2013-08-13,13.190965092402465
+ITT,ITT Inc.,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1995-12-15,30.85284052019165
+JAZZ,Jazz Pharmaceuticals,Health Care,Pharmaceuticals,Mid Cap,2007-06-01,19.392197125256672
+JEF,Jefferies,Financials,Multi-Sector Holdings,Mid Cap,1980-03-17,46.59822039698837
+JLL,Jones Lang LaSalle,Real Estate,Real Estate Services,Mid Cap,1997-07-17,29.26488706365503
+KBH,KB Home,Consumer Discretionary,Homebuilding,Mid Cap,1986-08-01,40.224503764544835
+KBR,"KBR, Inc.",Industrials,Diversified Support Services,Mid Cap,2006-11-16,19.9315537303217
+KEX,Kirby Corporation,Industrials,Marine Transportation,Mid Cap,1980-03-17,46.59822039698837
+KNSL,Kinsale Capital Group,Financials,Property & Casualty Insurance,Mid Cap,2016-07-28,10.234086242299794
+KNX,Knight-Swift,Industrials,Cargo Ground Transportation,Mid Cap,1994-10-25,31.991786447638603
+KRC,Kilroy Realty Corp,Real Estate,Office REITs,Mid Cap,1997-01-29,29.727583846680357
+KRG,Kite Realty Group Trust,Real Estate,Retail REITs,Mid Cap,2004-08-12,22.193018480492814
+KRYS,Krystal Biotech,Health Care,Biotechnology,Mid Cap,2017-09-20,9.086926762491444
+KTOS,Kratos Defense & Security Solutions,Industrials,Aerospace & Defense,Mid Cap,1999-11-05,26.962354551676935
+LAD,Lithia Motors,Consumer Discretionary,Automotive Retail,Mid Cap,1996-12-18,29.842573579739906
+LAMR,Lamar Advertising Company,Real Estate,Other Specialized REITs,Mid Cap,1996-08-02,30.220396988364133
+LEA,Lear,Consumer Discretionary,Automotive Parts & Equipment,Mid Cap,2009-11-09,16.95003422313484
+LECO,Lincoln Electric,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1994-04-07,32.54209445585216
+LFUS,Littelfuse,Information Technology,Electronic Components,Mid Cap,1992-09-22,34.0807665982204
+LIVN,LivaNova,Health Care,Health Care Equipment,Mid Cap,2015-10-19,11.008898015058179
+LNTH,Lantheus Holdings,Health Care,Health Care Supplies,Mid Cap,2015-06-25,11.326488706365502
+LOPE,Grand Canyon Education,Consumer Discretionary,Education Services,Mid Cap,2008-11-20,17.919233401779604
+LPX,Louisiana-Pacific,Industrials,Building Products,Mid Cap,1980-03-17,46.59822039698837
+LSCC,Lattice Semiconductor,Information Technology,Semiconductors,Mid Cap,1989-11-09,36.95003422313484
+LSTR,Landstar System,Industrials,Cargo Ground Transportation,Mid Cap,1993-03-05,33.63175906913073
+M,Macy's,Consumer Discretionary,Broadline Retail,Mid Cap,1992-02-05,34.71047227926078
+MANH,Manhattan Associates,Information Technology,Application Software,Mid Cap,1998-04-23,28.49828884325804
+MAT,Mattel,Consumer Discretionary,Leisure Products,Mid Cap,1976-06-17,50.34633812457221
+MEDP,Medpace,Health Care,Life Sciences Tools & Services,Mid Cap,2016-08-11,10.195756331279945
+MIDD,Middleby,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1987-08-10,39.200547570157426
+MKSI,MKS Instruments,Information Technology,Semiconductor Materials & Equipment,Mid Cap,1999-03-30,27.564681724845997
+MLI,Mueller Industries,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1991-02-25,35.65503080082136
+MMS,Maximus Inc.,Industrials,Data Processing & Outsourced Services,Mid Cap,1997-06-13,29.357973990417523
+MOG-A,Moog Inc.,Industrials,Aerospace & Defense,Mid Cap,1980-05-29,46.39835728952772
+MOH,Molina Healthcare,Health Care,Managed Health Care,Mid Cap,2003-07-02,23.307323750855577
+MORN,"Morningstar, Inc.",Financials,Financial Exchanges & Data,Mid Cap,2005-05-03,21.470225872689937
+MP,MP Materials,Materials,Diversified Metals & Mining,Mid Cap,2020-06-22,6.33264887063655
+MSA,MSA Safety,Industrials,Office Services & Supplies,Mid Cap,1973-02-22,53.661875427789184
+MSM,MSC Industrial Direct,Industrials,Trading Companies & Distributors,Mid Cap,1995-12-15,30.85284052019165
+MTDR,Matador Resources,Energy,Oil & Gas Exploration & Production,Mid Cap,2012-02-02,14.718685831622176
+MTG,MGIC Investment Corporation,Financials,Reinsurance,Mid Cap,1991-08-07,35.20876112251882
+MTN,Vail Resorts,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid Cap,1997-02-04,29.711156741957563
+MTSI,MACOM Technology Solutions,Information Technology,Semiconductors,Mid Cap,2012-03-15,14.603696098562628
+MTZ,MasTec,Industrials,Construction & Engineering,Mid Cap,1973-02-21,53.66461327857632
+MUR,Murphy Oil,Energy,Oil & Gas Exploration & Production,Mid Cap,1980-03-17,46.59822039698837
+MUSA,Murphy USA,Consumer Discretionary,Automotive Retail,Mid Cap,2013-08-19,13.174537987679672
+NBIX,Neurocrine Biosciences,Health Care,Biotechnology,Mid Cap,1996-05-23,30.414784394250514
+NEU,NewMarket Corporation,Materials,Specialty Chemicals,Mid Cap,1980-03-17,46.59822039698837
+NFG,National Fuel Gas,Utilities,Gas Utilities,Mid Cap,1973-05-03,53.47022587268994
+NJR,New Jersey Resources,Utilities,Gas Utilities,Mid Cap,1980-03-17,46.59822039698837
+NLY,Annaly Capital Management,Financials,Mortgage REITs,Mid Cap,1997-10-08,29.037645448323065
+NNN,NNN Reit,Real Estate,Retail REITs,Mid Cap,1984-10-09,42.03422313483915
+NOV,NOV Inc.,Energy,Oil & Gas Equipment & Services,Mid Cap,1996-10-29,29.97946611909651
+NOVT,Novanta,Information Technology,Electronic Equipment & Instruments,Mid Cap,1999-03-24,27.581108829568787
+NTNX,Nutanix,Information Technology,Systems Software,Mid Cap,2016-09-30,10.05886379192334
+NVST,Envista Holdings,Health Care,Health Care Supplies,Mid Cap,2019-09-18,7.093771389459275
+NVT,nVent Electric plc,Industrials,Electrical Components & Equipment,Mid Cap,2018-04-24,8.49555099247091
+NWE,NorthWestern Energy,Utilities,Multi-Utilities,Mid Cap,2007-12-28,18.817248459958932
+NXST,Nexstar Media Group,Communication Services,Broadcasting,Mid Cap,2003-11-25,22.90759753593429
+NYT,New York Times Company,Communication Services,Publishing,Mid Cap,1973-05-03,53.47022587268994
+OC,Owens Corning,Industrials,Building Products,Mid Cap,2006-11-01,19.972621492128678
+OGE,OGE Energy,Utilities,Multi-Utilities,Mid Cap,1973-02-21,53.66461327857632
+OGS,One Gas,Utilities,Gas Utilities,Mid Cap,2014-01-16,12.763860369609857
+OHI,Omega Healthcare Investors,Real Estate,Health Care REITs,Mid Cap,1992-08-07,34.20670773442848
+OKTA,"Okta, Inc.",Information Technology,Application Software,Mid Cap,2017-04-07,9.541409993155373
+OLED,Universal Display,Information Technology,Semiconductors,Mid Cap,1996-04-11,30.529774127310063
+OLLI,Ollie's Bargain Outlet,Consumer Discretionary,Broadline Retail,Mid Cap,2015-07-16,11.268993839835728
+ONB,Old National Bank,Financials,Regional Banks,Mid Cap,1984-06-20,42.338124572210816
+ONTO,Onto Innovation,Information Technology,Semiconductor Materials & Equipment,Mid Cap,2019-10-28,6.98425735797399
+OPCH,Option Care Health,Health Care,Health Care Facilities,Mid Cap,1996-08-15,30.184804928131417
+ORA,Ormat Technologies,Utilities,Renewable Electricity,Mid Cap,2004-11-11,21.94387405886379
+ORI,Old Republic International,Financials,Property & Casualty Insurance,Mid Cap,1980-03-17,46.59822039698837
+OSK,Oshkosh,Industrials,Construction Machinery & Heavy Transportation Equipment,Mid Cap,1985-10-02,41.054072553045856
+OVV,Ovintiv,Energy,Oil & Gas Exploration & Production,Mid Cap,2002-04-08,24.539356605065024
+OZK,Bank OZK,Financials,Regional Banks,Mid Cap,1997-07-17,29.26488706365503
+PAG,Penske Automotive Group,Consumer Discretionary,Automotive Retail,Mid Cap,1996-10-23,29.9958932238193
+PATH,UiPath,Information Technology,Systems Software,Mid Cap,2021-04-21,5.503080082135524
+PB,Prosperity Bancshares,Financials,Regional Banks,Mid Cap,1998-11-12,27.942505133470227
+PBF,PBF Energy,Energy,Oil & Gas Refining & Marketing,Mid Cap,2012-12-13,13.856262833675565
+PCTY,Paylocity,Industrials,Human Resource & Employment Services,Mid Cap,2014-03-19,12.594113620807667
+PEGA,Pegasystems,Information Technology,Application Software,Mid Cap,1996-07-19,30.258726899383984
+PEN,"Penumbra, Inc.",Health Care,Health Care Equipment,Mid Cap,2015-09-18,11.093771389459274
+PFGC,Performance Food Group,Consumer Staples,Food Distributors,Mid Cap,2015-09-30,11.06091718001369
+PII,Polaris,Consumer Discretionary,Leisure Products,Mid Cap,1987-09-16,39.09924709103354
+PINS,Pinterest,Communication Services,Interactive Home Entertainment,Mid Cap,2019-04-18,7.512662559890486
+PK,Park Hotels & Resorts,Real Estate,Hotel & Resort REITs,Mid Cap,2017-01-04,9.796030116358658
+PLNT,Planet Fitness,Consumer Discretionary,Leisure Facilities,Mid Cap,2015-08-06,11.211498973305956
+PNFP,Pinnacle Financial Partners,Financials,Regional Banks,Mid Cap,2000-08-22,26.16563997262149
+POR,Portland General Electric,Utilities,Electric Utilities,Mid Cap,2006-03-31,20.56125941136208
+POST,Post Holdings,Consumer Staples,Packaged Foods & Meats,Mid Cap,2012-01-27,14.735112936344969
+PPC,Pilgrim's Pride,Consumer Staples,Packaged Foods & Meats,Mid Cap,1987-12-30,38.81177275838467
+PR,Permian Resources,Energy,Oil & Gas Exploration & Production,Mid Cap,2016-04-15,10.518822724161533
+PRI,Primerica,Financials,Life & Health Insurance,Mid Cap,2010-04-01,16.55852156057495
+PSN,Parsons Corporation,Industrials,Aerospace & Defense,Mid Cap,2019-05-08,7.457905544147844
+PVH,PVH Corp.,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Mid Cap,1980-03-17,46.59822039698837
+QLYS,Qualys,Information Technology,Systems Software,Mid Cap,2012-09-28,14.064339493497604
+R,Ryder,Industrials,Cargo Ground Transportation,Mid Cap,1980-01-02,46.80355920602327
+RBA,RB Global,Industrials,Diversified Support Services,Mid Cap,1998-03-10,28.618754277891856
+RBC,RBC Bearings,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,2005-08-10,21.19917864476386
+REXR,Rexford Industrial Realty,Real Estate,Industrial REITs,Mid Cap,2013-07-19,13.259411362080767
+RGA,Reinsurance Group of America,Financials,Reinsurance,Mid Cap,2008-09-12,18.10814510609172
+RGEN,Repligen,Health Care,Biotechnology,Mid Cap,1986-04-29,40.48186173853525
+RGLD,Royal Gold,Materials,Gold,Mid Cap,1981-06-09,45.36892539356605
+RH,RH,Consumer Discretionary,Homefurnishing Retail,Mid Cap,2012-11-02,13.96851471594798
+RLI,RLI Corp.,Financials,Property & Casualty Insurance,Mid Cap,1980-03-17,46.59822039698837
+RMBS,Rambus,Information Technology,Semiconductors,Mid Cap,1997-05-14,29.440109514031484
+RNR,RenaissanceRe,Financials,Reinsurance,Mid Cap,1995-07-27,31.238877481177276
+ROIV,Roivant Sciences,Health Care,Biotechnology,Mid Cap,2020-12-08,5.8699520876112254
+ROKU,"Roku, Inc.",Communication Services,Movies & Entertainment,Mid Cap,2017-09-28,9.065023956194388
+RPM,RPM International,Materials,Specialty Chemicals,Mid Cap,1980-03-17,46.59822039698837
+RRC,Range Resources,Energy,Oil & Gas Exploration & Production,Mid Cap,1980-06-19,46.340862422997944
+RRX,Regal Rexnord,Industrials,Electrical Components & Equipment,Mid Cap,1980-03-17,46.59822039698837
+RS,"Reliance, Inc.",Materials,Steel,Mid Cap,1994-09-16,32.09856262833676
+RYAN,Ryan Specialty,Financials,Insurance Brokers,Mid Cap,2021-07-22,5.25119780971937
+RYN,Rayonier,Real Estate,Timber REITs,Mid Cap,1994-02-17,32.67624914442163
+SAIA,Saia,Industrials,Cargo Ground Transportation,Mid Cap,2002-09-11,24.112251882272417
+SAIC,Science Applications Intl Corp,Industrials,Diversified Support Services,Mid Cap,2013-09-16,13.097878165639973
+SANM,Sanmina Corporation,Information Technology,Electronic Manufacturing Services,Mid Cap,1993-04-14,33.52224503764545
+SBRA,Sabra Health Care REIT,Real Estate,Health Care REITs,Mid Cap,2002-04-02,24.555783709787818
+SCI,Service Corp Intl,Consumer Discretionary,Specialized Consumer Services,Mid Cap,1980-03-17,46.59822039698837
+SEIC,SEI Investments Company,Financials,Asset Management & Custody Banks,Mid Cap,1981-03-25,45.57700205338809
+SF,Stifel,Financials,Investment Banking & Brokerage,Mid Cap,1983-07-19,43.26078028747433
+SFM,Sprouts Farmers Market,Consumer Staples,Food Retail,Mid Cap,2013-08-01,13.22381930184805
+SHC,Sotera Health,Health Care,Health Care Services,Mid Cap,2020-11-20,5.919233401779603
+SIGI,Selective Insurance Group,Financials,Property & Casualty Insurance,Mid Cap,1980-03-17,46.59822039698837
+SIRI,SiriusXM,Communication Services,Broadcasting,Mid Cap,1994-09-13,32.106776180698155
+SITM,SiTime,Information Technology,Semiconductors,Mid Cap,2019-11-20,6.921286789869952
+SLAB,Silicon Labs,Information Technology,Semiconductors,Mid Cap,2000-03-24,26.579055441478438
+SLGN,Silgan Holdings,Materials,"Metal, Glass & Plastic Containers",Mid Cap,1997-02-14,29.683778234086244
+SLM,SLM Corp,Financials,Consumer Finance,Mid Cap,1983-09-23,43.08008213552361
+SMG,Scotts Miracle-Gro Company,Materials,Fertilizers & Agricultural Chemicals,Mid Cap,1992-01-31,34.724161533196444
+SMTC,Semtech,Information Technology,Semiconductors,Mid Cap,1980-03-17,46.59822039698837
+SNX,TD Synnex,Information Technology,Technology Distributors,Mid Cap,2003-11-25,22.90759753593429
+SON,Sonoco,Materials,Paper & Plastic Packaging Products & Materials,Mid Cap,1980-03-17,46.59822039698837
+SPXC,SPX Technologies,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1980-03-17,46.59822039698837
+SR,Spire,Utilities,Gas Utilities,Mid Cap,1973-02-21,53.66461327857632
+SSB,South State Bank,Financials,Regional Banks,Mid Cap,1997-01-28,29.730321697467488
+SSD,Simpson Manufacturing,Industrials,Building Products,Mid Cap,1994-05-26,32.407939767282684
+ST,Sensata Technologies,Industrials,Electrical Components & Equipment,Mid Cap,2010-03-11,16.61601642710472
+STAG,STAG Industrial,Real Estate,Industrial REITs,Mid Cap,2011-04-15,15.520876112251882
+STRL,Sterling Infrastructure,Industrials,Construction & Engineering,Mid Cap,1991-07-12,35.279945242984255
+STWD,Starwood Property Trust,Financials,Mortgage REITs,Mid Cap,2009-08-12,17.193702943189596
+SUI,Sun Communities,Real Estate,Single-Family Residential REITs,Mid Cap,1993-12-09,32.86789869952088
+SWX,Southwest Gas Corp,Utilities,Gas Utilities,Mid Cap,1973-02-21,53.66461327857632
+SYNA,Synaptics,Information Technology,Semiconductors,Mid Cap,2002-01-29,24.72826830937714
+TCBI,Texas Capital Bancshares,Financials,Regional Banks,Mid Cap,2003-08-13,23.19233401779603
+TEX,Terex,Industrials,Construction Machinery & Heavy Transportation Equipment,Mid Cap,1980-03-19,46.5927446954141
+THC,Tenet Health,Health Care,Health Care Facilities,Mid Cap,1980-03-17,46.59822039698837
+THG,Hanover Insurance,Financials,Property & Casualty Insurance,Mid Cap,1995-10-11,31.030800821355236
+THO,Thor Industries,Consumer Discretionary,Leisure Products,Mid Cap,1984-01-10,42.78165639972622
+TKR,Timken,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1973-02-21,53.66461327857632
+TNL,Travel + Leisure Co.,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid Cap,2006-07-19,20.26009582477755
+TOL,Toll Brothers,Consumer Discretionary,Homebuilding,Mid Cap,1986-07-08,40.290212183436005
+TOST,"Toast, Inc.",Financials,Transaction & Payment Processing Services,Mid Cap,2021-09-22,5.08145106091718
+TREX,Trex,Industrials,Building Products,Mid Cap,1999-04-08,27.540041067761805
+TRU,TransUnion,Industrials,Research & Consulting Services,Mid Cap,2015-06-25,11.326488706365502
+TTC,Toro,Industrials,Agricultural & Farm Machinery,Mid Cap,1980-03-17,46.59822039698837
+TTEK,Tetra Tech,Industrials,Construction & Engineering,Mid Cap,1991-12-17,34.847364818617386
+TTMI,TTM Technologies,Information Technology,Electronic Manufacturing Services,Mid Cap,2000-09-25,26.072553045859
+TXRH,Texas Roadhouse,Consumer Discretionary,Restaurants,Mid Cap,2004-10-05,22.04517453798768
+UBSI,United Bankshares,Financials,Regional Banks,Mid Cap,1987-06-04,39.383983572895275
+UFPI,UFP Industries,Industrials,Building Products,Mid Cap,1993-11-10,32.94729637234771
+UGI,UGI Corp,Utilities,Gas Utilities,Mid Cap,1973-02-21,53.66461327857632
+UMBF,UMB Financial Corp.,Financials,Regional Banks,Mid Cap,1980-03-17,46.59822039698837
+UNM,Unum,Financials,Life & Health Insurance,Mid Cap,1986-11-06,39.95893223819302
+USFD,US Foods,Consumer Staples,Food Distributors,Mid Cap,2016-05-26,10.406570841889117
+UTHR,United Therapeutics,Health Care,Biotechnology,Mid Cap,1999-06-17,27.34839151266256
+VAL,Valaris,Energy,Oil & Gas Drilling,Mid Cap,2021-05-03,5.470225872689938
+VC,Visteon,Consumer Discretionary,Automotive Parts & Equipment,Mid Cap,2010-10-05,16.046543463381244
+VFC,VF Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",Mid Cap,1980-03-17,46.59822039698837
+VIAV,Viavi Solutions,Information Technology,Communications Equipment,Mid Cap,1993-11-17,32.92813141683778
+VICR,Vicor Corporation,Industrials,Electrical Components & Equipment,Mid Cap,1990-04-03,36.55304585900068
+VLY,Valley Bank,Financials,Regional Banks,Mid Cap,1990-03-23,36.58316221765914
+VMI,Valmont Industries,Industrials,Industrial Machinery & Supplies & Components,Mid Cap,1973-02-21,53.66461327857632
+VNO,Vornado Realty Trust,Real Estate,Office REITs,Mid Cap,1980-03-17,46.59822039698837
+VNOM,Viper Energy,Energy,Oil & Gas Storage & Transportation,Mid Cap,2014-06-18,12.344969199178644
+VNT,Vontier,Information Technology,Electronic Equipment & Instruments,Mid Cap,2020-09-24,6.075290896646133
+VOYA,Voya Financial,Financials,Multi-Sector Holdings,Mid Cap,2013-05-02,13.47296372347707
+VVV,Valvoline,Consumer Discretionary,Automotive Retail,Mid Cap,2016-09-23,10.078028747433265
+WAL,Western Alliance Bancorporation,Financials,Regional Banks,Mid Cap,2005-07-01,21.308692676249144
+WCC,WESCO International,Industrials,Trading Companies & Distributors,Mid Cap,1999-05-12,27.446954140999317
+WEX,WEX Inc.,Financials,Transaction & Payment Processing Services,Mid Cap,2005-02-16,21.678302532511978
+WFRD,Weatherford International,Energy,Oil & Gas Equipment & Services,Mid Cap,2021-01-04,5.796030116358659
+WH,Wyndham Hotels & Resorts,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",Mid Cap,2018-05-21,8.421629021218344
+WHR,Whirlpool Corporation,Consumer Discretionary,Household Appliances,Mid Cap,1973-02-21,53.66461327857632
+WING,Wingstop,Consumer Discretionary,Restaurants,Mid Cap,2015-06-12,11.36208076659822
+WLK,Westlake Corporation,Materials,Specialty Chemicals,Mid Cap,2004-08-12,22.193018480492814
+WMG,Warner Music Group,Communication Services,Movies & Entertainment,Mid Cap,2020-06-03,6.38466803559206
+WMS,Advanced Drainage Systems,Industrials,Building Products,Mid Cap,2014-07-25,12.243668720054757
+WPC,W. P. Carey,Real Estate,Diversified REITs,Mid Cap,1998-01-21,28.750171115674195
+WSO,Watsco,Industrials,Trading Companies & Distributors,Mid Cap,1984-06-07,42.37371663244353
+WTFC,Wintrust Financial,Financials,Regional Banks,Mid Cap,1998-04-16,28.517453798767967
+WTRG,Essential Utilities,Utilities,Water Utilities,Mid Cap,1980-03-17,46.59822039698837
+WTS,Watts Water Technologies,Industrials,Building Products,Mid Cap,1986-08-21,40.16974674880219
+WWD,"Woodward, Inc.",Industrials,Electrical Components & Equipment,Mid Cap,1994-04-04,32.550308008213555
+XPO,"XPO, Inc.",Industrials,Cargo Ground Transportation,Mid Cap,2003-10-07,23.041752224503764
+XRAY,Dentsply Sirona,Health Care,Health Care Supplies,Mid Cap,1987-08-12,39.19507186858316
+YETI,Yeti Holdings,Consumer Discretionary,Leisure Products,Mid Cap,2018-10-25,7.991786447638604
+ZION,Zions Bancorporation,Financials,Regional Banks,Mid Cap,1980-03-17,46.59822039698837

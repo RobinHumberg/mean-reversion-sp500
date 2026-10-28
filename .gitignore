@@ -5,3 +5,10 @@ open_15y.csv
 .ipynb_checkpoints/
 __pycache__/
 .venv/
+
+# Research-Daten (werden von research/download_*.py neu geladen)
+research/data/*.pkl
+research/data/**/*.pkl
+research/momentum_results/
+research/overlay_results/
+research/sp500_results/

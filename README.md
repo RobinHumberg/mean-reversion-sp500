@@ -99,6 +99,89 @@ Die ehrlichere Zahl ist der **Mittelwert der 12 Nachbarn**: Information Ratio 0,
 
 **Verbesserungsversuche:** Eine Mindesthaltedauer von 5 Tagen kombiniert mit einer Ausstiegsschwelle von +4 % hebt den Nachbarschaftsmittelwert auf IR 0,42 (Test: 0,29) und senkt den Turnover von 98× auf 68×. Positionsobergrenzen senken den Tracking Error, verbessern aber die IR nicht. Kein Trendfilter, volatilitätsbereinigtes Signal, RSI und Ausführung zum Folgeschluss waren schlechter.
 
+## Erweiterung: 50%-Overlay auf den SPY (beste getestete Variante)
+
+Ordner `research/`. Ziel: den S&P 500 (SPY, Total Return) schlagen, mit höherer Sharpe Ratio. Getestet wurden die Repo-Strategie, Long/Short-Varianten und weitere Ansätze (Cross-Sectional-Momentum, Low-Vol, Trend- und Vol-Timing auf dem SPY, Kombinationen), 17 Strategien in Summe.
+
+**Beste getestete Variante: das 50%-Overlay.** Das Repo-Signal bleibt unverändert (10-Tage-Rendite < −8 %, Kurs > SMA200, Top-2 % überverkauft, Exit bei 10-Tage-Rendite > 0, Mindesthaltedauer 3 Tage). Der Mean-Reversion-Sleeve bekommt aber höchstens **50 %** des Kapitals, gleichgewichtet auf die aktiven Aktien. Der Rest liegt im SPY, ohne Signal sind es 100 % SPY. Die 50 % wurden vorab festgelegt (Vorschlag aus den offenen Punkten), nicht auf den Ergebnissen gewählt. Sie hat unter allen getesteten Strategien die höchste Out-of-Sample-Sharpe.
+
+Aufbau: Signal am Close t−1, Handel am Open t, 5 bps pro Seite auf Aktien, 1 bp auf SPY, Cash zum T-Bill-Satz (^IRX), PIT-Universum über `Date added`. In-Sample 2000–2012, Out-of-Sample 2013–2026. Sharpe jeweils über T-Bill.
+
+| | CAGR | Vol | Sharpe | Max DD | Beta | Alpha p.a. | Excess CAGR | Tracking Error | Info Ratio |
+|---|---|---|---|---|---|---|---|---|---|
+| **In-Sample 2000–2012** | | | | | | | | | |
+| SPY | +1,68 % | 21,4 % | 0,09 | −55,4 % | 1,00 | – | – | – | – |
+| MR-Overlay 50 % | +7,72 % | 26,3 % | 0,34 | −52,0 % | 1,08 | +6,79 % | +6,05 % | 12,6 % | 0,55 |
+| **Out-of-Sample 2013–2026** | | | | | | | | | |
+| SPY | +14,76 % | 16,1 % | 0,82 | −32,0 % | 1,00 | – | – | – | – |
+| MR-Overlay 50 % | +23,28 % | 21,8 % | 0,99 | −33,1 % | 1,11 | +6,82 % | +8,53 % | 12,6 % | 0,65 |
+| **Voll 2000–2026** | | | | | | | | | |
+| SPY | +8,22 % | 18,9 % | 0,41 | −55,4 % | 1,00 | – | – | – | – |
+| MR-Overlay 50 % | +15,48 % | 24,1 % | 0,64 | −52,0 % | 1,09 | +6,91 % | +7,26 % | 12,6 % | 0,60 |
+
+Out-of-Sample außerdem: Sortino 1,30 (SPY 0,99), Calmar 0,70 (SPY 0,46), Upside-Capture 117 %, Downside-Capture 110 %. Das Overlay schlägt den SPY in 19 von 27 Kalenderjahren (Out-of-Sample 10 von 14).
+
+**Statistische Absicherung (Δ Sharpe gegen SPY, Block-Bootstrap, 20 Tage, 5000 Ziehungen):**
+
+| | Δ In-Sample [95 %-KI] | P (Δ ≤ 0) | Δ Out-of-Sample [95 %-KI] | P (Δ ≤ 0) |
+|---|---|---|---|---|
+| 25 % | +0,14 [+0,01; +0,28] | 0,021 | +0,14 [−0,03; +0,29] | 0,053 |
+| **50 %** | +0,25 [−0,00; +0,48] | 0,028 | +0,16 [−0,14; +0,43] | 0,132 |
+| 75 % | +0,32 [−0,02; +0,63] | 0,033 | +0,14 [−0,25; +0,49] | 0,225 |
+| 100 % (Repo "all-in") | +0,36 [−0,04; +0,73] | 0,038 | +0,11 [−0,34; +0,52] | 0,310 |
+
+Das Out-of-Sample-Konfidenzintervall des 50%-Overlays enthält die Null: Die höhere Sharpe ist in den Daten sichtbar, aber nicht statistisch gesichert.
+
+**Kosten (50 %, Out-of-Sample):**
+
+| Kosten pro Seite | CAGR | Sharpe | Excess CAGR | Δ Sharpe | P |
+|---|---|---|---|---|---|
+| 0 bps | +25,93 % | 1,08 | +11,17 % | +0,26 | 0,043 |
+| 2 bps | +24,86 % | 1,05 | +10,10 % | +0,22 | 0,069 |
+| 5 bps | +23,28 % | 0,99 | +8,53 % | +0,16 | 0,132 |
+| 10 bps | +20,70 % | 0,89 | +5,94 % | +0,07 | 0,329 |
+| 20 bps | +15,68 % | 0,70 | +0,92 % | −0,13 | 0,817 |
+
+Der Turnover beträgt 43,7x pro Jahr (Kosten 1,94 % p.a. bei 5 bps). Bei 20 bps pro Seite ist der Vorsprung weg.
+
+**Nachbarschaft (12 Konfigurationen aus Länge 5/10, Einstieg −5/−8/−12 %, Trendfenster 100/200):** Out-of-Sample liegt die Sharpe im Mittel bei 0,81 (Spanne 0,62–1,01, SPY 0,82), der Excess-CAGR ist bei 11 von 12 positiv, die Sharpe liegt aber nur bei 5 von 12 über dem SPY.
+
+**Schwache Jahre gegenüber dem SPY:** 2006 (−13,0 pp), 2007 (−10,4 pp), 2024 (−12,1 pp), 2021 (−7,8 pp), 2012 (−7,0 pp).
+
+**Andere getestete Ansätze (Out-of-Sample 2013–2026):** Alle liegen bei Δ Sharpe ≤ 0,01 gegenüber dem SPY, mit Ausnahme der Repo-Varianten ohne Skalierung.
+
+| Strategie | CAGR | Sharpe | Δ Sharpe |
+|---|---|---|---|
+| MR Long/Short (20+20 Slots, Idle SPY) | +11,96 % | 0,60 | −0,22 |
+| SPY + MR marktneutral | +14,57 % | 0,67 | −0,15 |
+| XS-Momentum 12-1 long (Top-Dezil) | +17,38 % | 0,77 | −0,06 |
+| SPY + Momentum Long/Short | +12,76 % | 0,61 | −0,21 |
+| Low-Vol long (unteres Quintil) | +12,18 % | 0,83 | +0,00 |
+| SPY Trend (SMA200) | +11,12 % | 0,80 | −0,02 |
+| SPY Vol-Target 15 % | +14,39 % | 0,79 | −0,03 |
+| MR long (20 Slots) + Momentum-Buch als Idle | +17,44 % | 0,74 | −0,08 |
+
+**Einschränkungen dieser Auswertung:**
+
+- Survivorship-Bias: Das Universum sind die heutigen Mitglieder. Die PIT-Korrektur entfernt den Aufnahme-Bias, nicht die fehlenden entfernten Aktien. Vor 2012 sind nur ca. 170–290 Aktien handelbar, die In-Sample-Zahlen sind davon besonders betroffen.
+- Die Repo-Parameter wurden auf Daten ab 2012 gewählt. Für diese Strategie ist 2000–2012 das echte Hold-out, 2013–2026 ist es nicht im strengen Sinn.
+- Multiple Testing: 17 Strategien, 24 Nachbar-Konfigurationen und mehrere Kostenläufe. Die P-Werte berücksichtigen das nicht.
+- Die 5-bps-Annahme ist gesetzt. Die Strategie ist kostenempfindlich (siehe Tabelle).
+- Das Overlay hat ein Beta von 1,11 und 12,6 % Tracking Error: Die Mehrrendite kommt mit mehr Risiko als der SPY.
+
+**Dateien in `research/`:**
+
+| Datei | Inhalt |
+|---|---|
+| `overlay50.py` | 50%-Overlay inkl. Skalierung 25/75/100 %, Kosten, Nachbarschaft |
+| `sp500_research.py` | Repo-Replikation, Long/Short, Momentum, Low-Vol, Trend, Vol-Target, Kombinationen |
+| `momentum_overlay.py` | Time-Series-Momentum (Moskowitz/Ooi/Pedersen 2012) mit RSI(2)-Sleeves auf S&P-500-Aktien |
+| `overlay_spy.py` | RSI(2)-Overlay auf SPY und Sektor-/Index-ETFs |
+| `download_sp500_ohlc.py`, `download_sp500_daily.py` | Kursdownload (yfinance), legt Cache in `research/data/` ab |
+| `results/` | Kennzahlen als CSV und Charts der Läufe |
+
+Ausführung aus dem Ordner `research/`: erst `python download_sp500_ohlc.py`, dann `python overlay50.py`. Die Skripte schreiben ihre Ausgaben in `research/*_results/` (nicht versioniert), die mitgelieferten Ergebnisse liegen in `research/results/`. Voraussetzung: pandas, numpy, matplotlib, yfinance.
+
 ## Grenzen und offene Punkte
 
 - **Survivorship Bias der entfernten Aktien.** Aktien, die aus dem Index geflogen oder delistet sind, fehlen komplett. Beim Dip-Kaufen wirkt das zugunsten der Strategie, der echte Wert liegt eher unter den ausgewiesenen Zahlen.
